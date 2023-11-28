@@ -1,0 +1,8 @@
+Manufacturer,Code,Value,Pacage,Description,Count,Supplier,Datasheet,Reference
+Diodes Incorporated,AP7354-33W5-7,AP7354,SOT-SMD:SOT23-5,Converter LDO; Imax:150mA; Vin:5.5V; Iq:0.25µA;,1,Mouser,http://sqrt.pl/datasheet/AP7354.pdf,IC10
+Diodes Incorporated,MMBT3904,Bipolar-NPN,,40V; 200mA; 300mW;,1,TME,-,T1
+ST Microelectronics,STM32G070CBT6,STM32G070CB,QFP:LQFP48-7x7,Microcontroller; Flash:128kB; RAM:36kB;,1,Mouser,"http://sqrt.pl/datasheet/STM32G070x{8,B}.pdf",IC9
+Würth Elektronik,150060GS75000,LED,LED:0603,WL-SMCW SMT Mono-color Chip LED Waterclear; Green;,1,Würth Elektronik,https://www.we-online.com/catalog/datasheet/150060GS75000.pdf,LED1
+Würth Elektronik,691242710006,6-Pin,WR-TBL-5.00mm:Horizontal-2427-06,Terminal; 5.0mm;,2,Würth Elektronik,-,"CN1,CN4"
+Würth Elektronik,885012006063,1nF,Capacitor-SMD:0603,Ceramic Capacitor; 50V; NP0; ±5%;,1,Würth Elektronik,-,C13
+Würth Elektronik,885012106006,10µF,Capacitor-SMD:0603,Ceramic Capacitor; 6.3V; X5R; ±20%;,3,Würth Elektronik,-,"C14,C15,C16"

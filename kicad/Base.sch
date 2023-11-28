@@ -1,0 +1,2512 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr User 8350 7150
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Notes Line
+	6250 3000 6250 5200
+Wire Notes Line
+	550  550  550  2950
+Wire Notes Line
+	550  2950 4900 2950
+Wire Notes Line
+	4900 550  550  550 
+Wire Notes Line
+	4900 2950 4900 550 
+Wire Wire Line
+	8550 6900 8550 6750
+$Comp
+L Tag:FLG #FLG0101
+U 1 1 64CD4E35
+P 8550 6750
+F 0 "#FLG0101" H 8555 6705 30  0001 C CNN
+F 1 "FLG" V 8550 6920 30  0000 C CNN
+F 2 "" H 8550 6750 50  0001 C CNN
+F 3 "" H 8550 6750 50  0001 C CNN
+	1    8550 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Tag:GND #PWR0131
+U 1 1 64CD4E3B
+P 8550 6900
+F 0 "#PWR0131" H 8550 6850 30  0001 C CNN
+F 1 "GND" H 8550 7030 30  0000 C CNN
+F 2 "" H 8550 6900 60  0001 C CNN
+F 3 "" H 8550 6900 60  0001 C CNN
+	1    8550 6900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Tag:FLG #FLG0103
+U 1 1 652067D4
+P 8750 6750
+F 0 "#FLG0103" H 8755 6705 30  0001 C CNN
+F 1 "FLG" V 8750 6920 30  0000 C CNN
+F 2 "" H 8750 6750 50  0001 C CNN
+F 3 "" H 8750 6750 50  0001 C CNN
+	1    8750 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Tag:SYS #PWR0133
+U 1 1 6522374E
+P 8750 6900
+F 0 "#PWR0133" H 8750 6850 30  0001 C CNN
+F 1 "SYS" V 8748 7090 30  0000 C CNN
+F 2 "" H 8750 6900 60  0001 C CNN
+F 3 "" H 8750 6900 60  0001 C CNN
+	1    8750 6900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8750 6900 8750 6750
+Wire Wire Line
+	800  2200 800  2000
+Connection ~ 800  1700
+Wire Wire Line
+	800  1800 800  1700
+Wire Wire Line
+	800  1600 800  1700
+Wire Wire Line
+	800  1700 1000 1700
+Wire Wire Line
+	2650 1500 2650 1600
+Connection ~ 2650 1700
+Wire Wire Line
+	2650 1700 2750 1700
+NoConn ~ 2750 1900
+NoConn ~ 2750 2000
+Wire Wire Line
+	2750 1500 2650 1500
+Wire Wire Line
+	1450 1700 1650 1700
+Connection ~ 1650 1700
+Wire Wire Line
+	1650 1700 1650 1800
+Wire Wire Line
+	1650 1700 1900 1700
+Wire Wire Line
+	1900 1700 1900 1800
+Connection ~ 1900 1700
+Wire Wire Line
+	1650 2000 1650 2200
+Wire Wire Line
+	1900 2200 1900 2000
+$Comp
+L Tag:GND #PWR0112
+U 1 1 6184A016
+P 2150 2500
+F 0 "#PWR0112" H 2150 2450 30  0001 C CNN
+F 1 "GND" H 2150 2630 30  0000 C CNN
+F 2 "" H 2150 2500 60  0001 C CNN
+F 3 "" H 2150 2500 60  0001 C CNN
+	1    2150 2500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1650 1600 1650 1700
+Wire Wire Line
+	2750 1600 2650 1600
+Connection ~ 2650 1600
+Wire Wire Line
+	2650 1600 2650 1700
+NoConn ~ 1450 1900
+Wire Wire Line
+	1050 1800 1000 1800
+Wire Wire Line
+	1000 1800 1000 1700
+Connection ~ 1000 1700
+Wire Wire Line
+	1000 1700 1050 1700
+Wire Wire Line
+	1050 1900 1000 1900
+Wire Wire Line
+	1000 1900 1000 2200
+$Comp
+L Tag:SYS #PWR0109
+U 1 1 65609A56
+P 800 1600
+F 0 "#PWR0109" H 800 1550 30  0001 C CNN
+F 1 "SYS" V 798 1790 30  0000 C CNN
+F 2 "" H 800 1600 60  0001 C CNN
+F 3 "" H 800 1600 60  0001 C CNN
+	1    800  1600
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	550  6600 3400 6600
+Wire Notes Line
+	3400 3000 3400 6600
+Wire Notes Line
+	550  3000 3400 3000
+Wire Notes Line
+	550  3000 550  6600
+Wire Wire Line
+	2200 4500 2300 4500
+Text GLabel 2300 4500 2    30   Input ~ 0
+L2+
+Wire Wire Line
+	2800 3950 2800 4000
+Wire Wire Line
+	2650 3950 2650 4000
+Wire Wire Line
+	2600 3550 2600 3450
+Connection ~ 2800 4000
+Wire Wire Line
+	2800 4000 2800 4100
+Wire Wire Line
+	2800 3450 2800 3550
+$Comp
+L Tag:+12V #PWR0102
+U 1 1 61FBBFF9
+P 2800 3350
+F 0 "#PWR0102" H 2800 3300 30  0001 C CNN
+F 1 "+12V" H 2795 3505 30  0000 C CNN
+F 2 "" H 2800 3350 60  0001 C CNN
+F 3 "" H 2800 3350 60  0001 C CNN
+	1    2800 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 3350 2800 3450
+Connection ~ 2800 3450
+Wire Wire Line
+	2350 4000 2350 3850
+Wire Wire Line
+	2350 4000 2650 4000
+Wire Wire Line
+	2350 3450 2350 3650
+Wire Wire Line
+	2350 3450 2600 3450
+Wire Wire Line
+	2350 3450 2200 3450
+Connection ~ 2350 3450
+Wire Wire Line
+	2350 4000 2200 4000
+Connection ~ 2350 4000
+Text GLabel 2400 4250 0    30   Input ~ 0
+OUT3
+Wire Wire Line
+	2400 4250 2600 4250
+Wire Wire Line
+	3200 3450 2800 3450
+Wire Wire Line
+	3200 3600 3200 3450
+Wire Wire Line
+	3200 4000 3200 3900
+Wire Wire Line
+	2800 4000 3200 4000
+Wire Wire Line
+	800  4500 900  4500
+Text GLabel 900  4500 2    30   Input ~ 0
+L1+
+Wire Wire Line
+	1400 3950 1400 4000
+Wire Wire Line
+	1250 3950 1250 4000
+Wire Wire Line
+	1200 3550 1200 3450
+Connection ~ 1400 4000
+Wire Wire Line
+	1400 4000 1400 4100
+Wire Wire Line
+	1400 3450 1400 3550
+$Comp
+L Tag:+12V #PWR0106
+U 1 1 618AC436
+P 1400 3350
+F 0 "#PWR0106" H 1400 3300 30  0001 C CNN
+F 1 "+12V" H 1395 3505 30  0000 C CNN
+F 2 "" H 1400 3350 60  0001 C CNN
+F 3 "" H 1400 3350 60  0001 C CNN
+	1    1400 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1400 3350 1400 3450
+Connection ~ 1400 3450
+Wire Wire Line
+	950  4000 950  3850
+Wire Wire Line
+	950  4000 1250 4000
+Wire Wire Line
+	950  3450 950  3650
+Wire Wire Line
+	950  3450 1200 3450
+Wire Wire Line
+	950  3450 800  3450
+Connection ~ 950  3450
+Wire Wire Line
+	950  4000 800  4000
+Connection ~ 950  4000
+Text GLabel 800  4000 0    30   Input ~ 0
+L1+
+Text GLabel 1000 4250 0    30   Input ~ 0
+OUT1
+Wire Wire Line
+	1000 4250 1200 4250
+Wire Wire Line
+	1800 3450 1400 3450
+Wire Wire Line
+	1800 3600 1800 3450
+Wire Wire Line
+	1800 4000 1800 3900
+Wire Wire Line
+	1400 4000 1800 4000
+Wire Wire Line
+	2800 5650 2800 5700
+Wire Wire Line
+	2650 5650 2650 5700
+Wire Wire Line
+	2600 5250 2600 5150
+Connection ~ 2800 5700
+Wire Wire Line
+	2800 5700 2800 5800
+Wire Wire Line
+	2800 5150 2800 5250
+$Comp
+L Tag:+12V #PWR0108
+U 1 1 61FBC05D
+P 2800 5050
+F 0 "#PWR0108" H 2800 5000 30  0001 C CNN
+F 1 "+12V" H 2795 5205 30  0000 C CNN
+F 2 "" H 2800 5050 60  0001 C CNN
+F 3 "" H 2800 5050 60  0001 C CNN
+	1    2800 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 5050 2800 5150
+Connection ~ 2800 5150
+Wire Wire Line
+	2350 5700 2350 5550
+Wire Wire Line
+	2350 5700 2650 5700
+Wire Wire Line
+	2350 5150 2350 5350
+Wire Wire Line
+	2350 5150 2600 5150
+Wire Wire Line
+	2350 5150 2200 5150
+Connection ~ 2350 5150
+Wire Wire Line
+	2350 5700 2200 5700
+Connection ~ 2350 5700
+Text GLabel 2400 5950 0    30   Input ~ 0
+OUT4
+Wire Wire Line
+	2400 5950 2600 5950
+Wire Wire Line
+	3200 5150 2800 5150
+Wire Wire Line
+	3200 5300 3200 5150
+Wire Wire Line
+	3200 5700 3200 5600
+Wire Wire Line
+	2800 5700 3200 5700
+Wire Wire Line
+	1400 5650 1400 5700
+Wire Wire Line
+	1250 5650 1250 5700
+Wire Wire Line
+	1200 5250 1200 5150
+Connection ~ 1400 5700
+Wire Wire Line
+	1400 5700 1400 5800
+Wire Wire Line
+	1400 5150 1400 5250
+$Comp
+L Tag:+12V #PWR0110
+U 1 1 61EA5863
+P 1400 5050
+F 0 "#PWR0110" H 1400 5000 30  0001 C CNN
+F 1 "+12V" H 1395 5205 30  0000 C CNN
+F 2 "" H 1400 5050 60  0001 C CNN
+F 3 "" H 1400 5050 60  0001 C CNN
+	1    1400 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1400 5050 1400 5150
+Connection ~ 1400 5150
+Wire Wire Line
+	950  5700 950  5550
+Wire Wire Line
+	950  5700 1250 5700
+Wire Wire Line
+	950  5150 950  5350
+Wire Wire Line
+	950  5150 1200 5150
+Wire Wire Line
+	950  5150 800  5150
+Connection ~ 950  5150
+Wire Wire Line
+	950  5700 800  5700
+Connection ~ 950  5700
+Text GLabel 800  5700 0    30   Input ~ 0
+L1+
+Text GLabel 1000 5950 0    30   Input ~ 0
+OUT2
+Wire Wire Line
+	1000 5950 1200 5950
+Wire Wire Line
+	1800 5150 1400 5150
+Wire Wire Line
+	1800 5300 1800 5150
+Wire Wire Line
+	1800 5700 1800 5600
+Wire Wire Line
+	1400 5700 1800 5700
+Wire Wire Line
+	2800 6150 2800 6250
+Wire Wire Line
+	1400 6150 1400 6250
+$Comp
+L Tag:GND #PWR0111
+U 1 1 61FBC051
+P 2800 6250
+F 0 "#PWR0111" H 2800 6200 30  0001 C CNN
+F 1 "GND" H 2800 6380 30  0000 C CNN
+F 2 "" H 2800 6250 60  0001 C CNN
+F 3 "" H 2800 6250 60  0001 C CNN
+	1    2800 6250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Tag:GND #PWR0113
+U 1 1 61EA5857
+P 1400 6250
+F 0 "#PWR0113" H 1400 6200 30  0001 C CNN
+F 1 "GND" H 1400 6380 30  0000 C CNN
+F 2 "" H 1400 6250 60  0001 C CNN
+F 3 "" H 1400 6250 60  0001 C CNN
+	1    1400 6250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2800 4450 2800 4550
+$Comp
+L Tag:GND #PWR0114
+U 1 1 61FBBFED
+P 2800 4550
+F 0 "#PWR0114" H 2800 4500 30  0001 C CNN
+F 1 "GND" H 2800 4680 30  0000 C CNN
+F 2 "" H 2800 4550 60  0001 C CNN
+F 3 "" H 2800 4550 60  0001 C CNN
+	1    2800 4550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1400 4450 1400 4550
+$Comp
+L Tag:GND #PWR0115
+U 1 1 61992E6D
+P 1400 4550
+F 0 "#PWR0115" H 1400 4500 30  0001 C CNN
+F 1 "GND" H 1400 4680 30  0000 C CNN
+F 2 "" H 1400 4550 60  0001 C CNN
+F 3 "" H 1400 4550 60  0001 C CNN
+	1    1400 4550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3850 3850 3800 3850
+Text GLabel 3850 3850 2    30   Input ~ 0
+L1-
+Wire Wire Line
+	3850 5500 3800 5500
+Text GLabel 5850 5200 2    30   Input ~ 0
+IN3
+Wire Notes Line
+	3450 6600 3450 3000
+Wire Notes Line
+	6200 6600 3450 6600
+Wire Notes Line
+	6200 3000 6200 6600
+Wire Notes Line
+	3450 3000 6200 3000
+Wire Wire Line
+	5350 3550 5400 3550
+Text GLabel 2200 4000 0    30   Input ~ 0
+L2+
+Text GLabel 2200 5700 0    30   Input ~ 0
+L2+
+Text GLabel 3850 5500 2    30   Input ~ 0
+L2-
+Text GLabel 6550 2600 0    30   Input ~ 0
+CS
+Text GLabel 7050 2500 2    30   Input ~ 0
+MOSI
+$Comp
+L Tag:SYS #PWR0121
+U 1 1 613F6314
+P 7050 2400
+F 0 "#PWR0121" H 7050 2350 30  0001 C CNN
+F 1 "SYS" V 7048 2590 30  0000 C CNN
+F 2 "" H 7050 2400 60  0001 C CNN
+F 3 "" H 7050 2400 60  0001 C CNN
+	1    7050 2400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3550 900  3550 850 
+Wire Wire Line
+	4450 2200 4500 2200
+Wire Wire Line
+	4500 2300 4450 2300
+Text GLabel 4500 2200 2    30   Input ~ 0
+MISO
+Text GLabel 4500 2300 2    30   Input ~ 0
+SCK
+Wire Wire Line
+	4450 2100 4500 2100
+Text GLabel 4500 2100 2    30   Input ~ 0
+MOSI
+Text GLabel 3550 850  1    30   Input ~ 0
+IN1
+NoConn ~ 3450 2600
+NoConn ~ 3550 2600
+NoConn ~ 4450 1400
+NoConn ~ 4150 900 
+NoConn ~ 3650 900 
+Wire Wire Line
+	5500 2550 5350 2550
+Wire Wire Line
+	5350 2450 5500 2450
+Wire Wire Line
+	5500 2350 5350 2350
+Text GLabel 5350 2450 0    30   Input ~ 0
+SWCLK
+Text GLabel 5350 2550 0    30   Input ~ 0
+SWDIO
+Text GLabel 5350 2350 0    30   Input ~ 0
+RST
+Wire Wire Line
+	6000 2350 5800 2350
+Wire Wire Line
+	5800 2450 5850 2450
+Wire Wire Line
+	5850 2550 5800 2550
+Text GLabel 5850 2550 2    30   Input ~ 0
+DBG-TX
+Wire Wire Line
+	5800 2650 6000 2650
+$Comp
+L Tag:GND #PWR0123
+U 1 1 617C8850
+P 6000 2650
+F 0 "#PWR0123" H 6000 2600 30  0001 C CNN
+F 1 "GND" V 6000 2800 30  0000 C CNN
+F 2 "" H 6000 2650 60  0001 C CNN
+F 3 "" H 6000 2650 60  0001 C CNN
+	1    6000 2650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4450 2000 4500 2000
+Wire Wire Line
+	4450 1900 4500 1900
+Text GLabel 4500 1900 2    30   Input ~ 0
+OUT1
+Text GLabel 4500 2000 2    30   Input ~ 0
+OUT2
+Wire Wire Line
+	4450 1800 4500 1800
+Wire Wire Line
+	4450 1700 4500 1700
+Text GLabel 4500 1700 2    30   Input ~ 0
+OUT3
+Text GLabel 4500 1800 2    30   Input ~ 0
+OUT4
+Text GLabel 4500 1200 2    30   Input ~ 0
+SWCLK
+Text GLabel 4500 1300 2    30   Input ~ 0
+SWDIO
+NoConn ~ 5500 2650
+Wire Wire Line
+	4500 1300 4450 1300
+Wire Wire Line
+	4450 1200 4500 1200
+Text GLabel 3150 2650 3    30   Input ~ 0
+BUS-RX
+Text GLabel 3050 2650 3    30   Input ~ 0
+BUS-TX
+Text GLabel 6550 2500 0    30   Input ~ 0
+SCK
+Text GLabel 6550 2400 0    30   Input ~ 0
+MISO
+Wire Wire Line
+	3050 2650 3050 2600
+Wire Wire Line
+	3150 2600 3150 2650
+Wire Wire Line
+	5200 900  5200 950 
+Wire Notes Line
+	4950 2000 4950 550 
+Wire Notes Line
+	4950 550  7800 550 
+Wire Notes Line
+	7800 550  7800 2000
+Wire Notes Line
+	7800 2000 4950 2000
+$Comp
+L Tag:SYS #PWR0132
+U 1 1 6168FD93
+P 5200 900
+F 0 "#PWR0132" H 5200 850 30  0001 C CNN
+F 1 "SYS" V 5198 1090 30  0000 C CNN
+F 2 "" H 5200 900 60  0001 C CNN
+F 3 "" H 5200 900 60  0001 C CNN
+	1    5200 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Tag:+3V3 #PWR0134
+U 1 1 617202D6
+P 1650 1600
+F 0 "#PWR0134" H 1650 1550 30  0001 C CNN
+F 1 "+3V3" V 1645 1785 30  0000 C CNN
+F 2 "" H 1650 1600 60  0001 C CNN
+F 3 "" H 1650 1600 60  0001 C CNN
+	1    1650 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Tag:GND #PWR0139
+U 1 1 61449073
+P 7100 2600
+F 0 "#PWR0139" H 7100 2550 30  0001 C CNN
+F 1 "GND" H 7100 2730 30  0000 C CNN
+F 2 "" H 7100 2600 60  0001 C CNN
+F 3 "" H 7100 2600 60  0001 C CNN
+	1    7100 2600
+	0    1    1    0   
+$EndComp
+Wire Notes Line
+	4950 2050 4950 2950
+Wire Notes Line
+	4950 2950 7800 2950
+Wire Notes Line
+	7800 2950 7800 2050
+Wire Notes Line
+	7800 2050 4950 2050
+Text GLabel 3250 850  1    30   Input ~ 0
+DBG-RX
+Text GLabel 3350 850  1    30   Input ~ 0
+DBG-TX
+Wire Wire Line
+	3250 900  3250 850 
+Wire Wire Line
+	3350 900  3350 850 
+Text GLabel 6600 3750 0    30   Input ~ 0
+BUS-TX
+Text GLabel 6600 3850 0    30   Input ~ 0
+BUS-RX
+Text GLabel 5850 6000 2    30   Input ~ 0
+IN4
+Text Label 1025 5150 0    30   ~ 0
+DO2
+Text Label 1025 3450 0    30   ~ 0
+DO1
+Text Label 2425 5150 0    30   ~ 0
+DO4
+Text Label 2425 3450 0    30   ~ 0
+DO3
+NoConn ~ 4450 1500
+Text GLabel 4150 2650 3    30   Input ~ 0
+CS
+Wire Wire Line
+	4150 2600 4150 2650
+Wire Wire Line
+	6550 2400 6750 2400
+Wire Wire Line
+	6550 2500 6750 2500
+Wire Wire Line
+	6850 2500 7050 2500
+Wire Wire Line
+	6850 2600 7100 2600
+NoConn ~ 6800 2750
+Wire Wire Line
+	7200 3750 7100 3750
+NoConn ~ 7200 4450
+NoConn ~ 7200 4350
+NoConn ~ 7200 4250
+NoConn ~ 7200 4150
+NoConn ~ 7200 4050
+NoConn ~ 7200 3950
+$Comp
+L Tag:SYS #PWR0104
+U 1 1 61F0F183
+P 7300 3350
+F 0 "#PWR0104" H 7300 3300 30  0001 C CNN
+F 1 "SYS" V 7298 3540 30  0000 C CNN
+F 2 "" H 7300 3350 60  0001 C CNN
+F 3 "" H 7300 3350 60  0001 C CNN
+	1    7300 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7300 4950 7300 4550
+Wire Notes Line
+	7800 3000 6250 3000
+Wire Notes Line
+	6250 5200 7800 5200
+Wire Notes Line
+	7800 5200 7800 3000
+Connection ~ 7300 3950
+Wire Wire Line
+	7300 3950 7300 4050
+Connection ~ 7300 3850
+Wire Wire Line
+	7300 3850 7300 3950
+Wire Wire Line
+	7300 3750 7300 3850
+$Comp
+L Tag:GND #PWR0116
+U 1 1 61C3596A
+P 7300 4950
+F 0 "#PWR0116" H 7300 4900 30  0001 C CNN
+F 1 "GND" H 7300 5080 30  0000 C CNN
+F 2 "" H 7300 4950 60  0001 C CNN
+F 3 "" H 7300 4950 60  0001 C CNN
+	1    7300 4950
+	-1   0    0    1   
+$EndComp
+Connection ~ 7300 4350
+Wire Wire Line
+	7300 4250 7300 4350
+Connection ~ 7300 4450
+Wire Wire Line
+	7300 4350 7300 4450
+Connection ~ 7300 4550
+Wire Wire Line
+	7300 4450 7300 4550
+Wire Wire Line
+	7100 3850 7200 3850
+Wire Wire Line
+	7000 3750 7100 3850
+Wire Wire Line
+	7100 3750 7000 3850
+Text GLabel 5850 2450 2    30   Input ~ 0
+DBG-RX
+Text Notes 1190 1440 0    40   ~ 0
+3V3
+$Comp
+L Tag:+3V3 #PWR0122
+U 1 1 61FA4364
+P 6000 2350
+F 0 "#PWR0122" H 6000 2300 30  0001 C CNN
+F 1 "+3V3" V 5995 2535 30  0000 C CNN
+F 2 "" H 6000 2350 60  0001 C CNN
+F 3 "" H 6000 2350 60  0001 C CNN
+	1    6000 2350
+	0    1    1    0   
+$EndComp
+$Comp
+L Tag:GND #PWR0124
+U 1 1 6278BD3F
+P 5200 1750
+F 0 "#PWR0124" H 5200 1700 30  0001 C CNN
+F 1 "GND" H 5200 1880 30  0000 C CNN
+F 2 "" H 5200 1750 60  0001 C CNN
+F 3 "" H 5200 1750 60  0001 C CNN
+	1    5200 1750
+	-1   0    0    1   
+$EndComp
+Connection ~ 5200 1300
+Wire Wire Line
+	5200 950  5700 950 
+Wire Wire Line
+	5200 1300 5200 950 
+Connection ~ 6100 950 
+Wire Wire Line
+	5900 950  6100 950 
+Wire Wire Line
+	6100 1300 6000 1300
+Wire Wire Line
+	6100 950  6100 1300
+Wire Wire Line
+	5200 1750 5200 1700
+Connection ~ 5200 950 
+$Comp
+L Tag:GND #PWR0130
+U 1 1 6295769C
+P 6100 1750
+F 0 "#PWR0130" H 6100 1700 30  0001 C CNN
+F 1 "GND" H 6100 1880 30  0000 C CNN
+F 2 "" H 6100 1750 60  0001 C CNN
+F 3 "" H 6100 1750 60  0001 C CNN
+	1    6100 1750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6100 1750 6100 1500
+Wire Wire Line
+	6100 1500 6000 1500
+Wire Wire Line
+	5200 1300 5200 1500
+Wire Wire Line
+	3950 2600 3950 2650
+$Comp
+L Tag:+3V3 #PWR0140
+U 1 1 615E5ACD
+P 7500 2350
+F 0 "#PWR0140" H 7500 2300 30  0001 C CNN
+F 1 "+3V3" H 7490 2500 30  0000 C CNN
+F 2 "" H 7500 2350 60  0001 C CNN
+F 3 "" H 7500 2350 60  0001 C CNN
+	1    7500 2350
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3750 2600
+Wire Wire Line
+	2150 1800 2750 1800
+Wire Wire Line
+	1900 1700 2650 1700
+Text GLabel 2400 2000 1    30   Input ~ 0
+RST
+Wire Wire Line
+	2750 2100 2400 2100
+Wire Wire Line
+	2400 2100 2400 2200
+Wire Wire Line
+	2400 2000 2400 2100
+Connection ~ 2400 2100
+$Comp
+L Tag:GND #PWR0141
+U 1 1 62638B12
+P 2400 2500
+F 0 "#PWR0141" H 2400 2450 30  0001 C CNN
+F 1 "GND" H 2400 2630 30  0000 C CNN
+F 2 "" H 2400 2500 60  0001 C CNN
+F 3 "" H 2400 2500 60  0001 C CNN
+	1    2400 2500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2400 2500 2400 2400
+Wire Wire Line
+	2150 1800 2150 2500
+$Comp
+L Tag:GND #PWR0142
+U 1 1 626AA3CD
+P 1900 2200
+F 0 "#PWR0142" H 1900 2150 30  0001 C CNN
+F 1 "GND" H 1900 2330 30  0000 C CNN
+F 2 "" H 1900 2200 60  0001 C CNN
+F 3 "" H 1900 2200 60  0001 C CNN
+	1    1900 2200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Tag:GND #PWR0143
+U 1 1 626BF6EC
+P 1650 2200
+F 0 "#PWR0143" H 1650 2150 30  0001 C CNN
+F 1 "GND" H 1650 2330 30  0000 C CNN
+F 2 "" H 1650 2200 60  0001 C CNN
+F 3 "" H 1650 2200 60  0001 C CNN
+	1    1650 2200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Tag:GND #PWR0144
+U 1 1 626D3057
+P 1000 2200
+F 0 "#PWR0144" H 1000 2150 30  0001 C CNN
+F 1 "GND" H 1000 2330 30  0000 C CNN
+F 2 "" H 1000 2200 60  0001 C CNN
+F 3 "" H 1000 2200 60  0001 C CNN
+	1    1000 2200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Tag:GND #PWR0145
+U 1 1 626E6A65
+P 800 2200
+F 0 "#PWR0145" H 800 2150 30  0001 C CNN
+F 1 "GND" H 800 2330 30  0000 C CNN
+F 2 "" H 800 2200 60  0001 C CNN
+F 3 "" H 800 2200 60  0001 C CNN
+	1    800  2200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3050 900  3050 850 
+Text GLabel 3150 850  1    30   Input ~ 0
+IN4
+Wire Wire Line
+	3150 900  3150 850 
+Text GLabel 3050 850  1    30   Input ~ 0
+IN3
+NoConn ~ 3850 2600
+NoConn ~ 3650 2600
+NoConn ~ 4450 1600
+Text Notes 3225 1200 0    30   ~ 0
+UART1
+Text Notes 3125 2350 0    30   ~ 0
+UART2
+Text GLabel 3750 3350 0    30   Input ~ 0
+L1-
+Text GLabel 3750 4150 0    30   Input ~ 0
+L1-
+NoConn ~ 3350 2600
+Wire Wire Line
+	5200 1300 5600 1300
+Wire Wire Line
+	5600 1400 5550 1400
+Text GLabel 5550 1400 0    30   Input ~ 0
+OUT-EN
+Wire Wire Line
+	7200 4550 7300 4550
+NoConn ~ 2750 2300
+NoConn ~ 2750 1200
+NoConn ~ 2750 1300
+NoConn ~ 2750 1400
+Wire Wire Line
+	3450 900  3450 850 
+Text GLabel 3450 850  1    30   Input ~ 0
+IN2
+NoConn ~ 3750 900 
+NoConn ~ 3850 900 
+NoConn ~ 3950 900 
+NoConn ~ 4050 900 
+Text Notes 3450 1200 0    30   ~ 0
+TIM3
+Text Notes 3075 1270 1    30   ~ 0
+TIM17
+Text Notes 3175 1270 1    30   ~ 0
+TIM16
+Text GLabel 2650 2650 3    30   Input ~ 0
+OUT-EN
+Wire Wire Line
+	2650 2200 2650 2650
+Wire Wire Line
+	2750 2200 2650 2200
+Text Notes 4175 2250 1    30   ~ 0
+SPI2
+Text Label 5975 950  0    30   ~ 0
+SW
+$Comp
+L Microcontroller:STM32G0-LQFP48 IC9
+U 1 1 61592676
+P 3600 1750
+F 0 "IC9" H 3600 1700 50  0000 C CNN
+F 1 "STM32G070CB" H 3600 1800 50  0000 C CNB
+F 2 "QFP:LQFP48-7x7" H 3650 1500 50  0001 C CIN
+F 3 "http://sqrt.pl/datasheet/STM32G070x{8,B}.pdf" H 3600 1550 50  0001 C CNN
+F 4 "ST Microelectronics" H 3600 1700 30  0001 C CNN "Manufacturer"
+F 5 "STM32G070CBT6" H 3600 1650 30  0001 C CNN "Code"
+F 6 "Mouser" H 3600 1600 30  0001 C CNN "Supplier"
+F 7 "Microcontroller; Flash:128kB; RAM:36kB;" H 3600 1550 30  0001 C CNN "Description"
+	1    3600 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L LDO:AP7354 IC10
+U 1 1 625061EB
+P 1250 1800
+F 0 "IC10" H 1250 2050 40  0000 C CNN
+F 1 "AP7354" H 1250 2120 40  0000 C CNB
+F 2 "SOT-SMD:SOT23-5" H 1250 1550 30  0001 C CNN
+F 3 "http://sqrt.pl/datasheet/AP7354.pdf" H 1250 1600 30  0001 C CNN
+F 4 "Diodes Incorporated" H 1250 1550 30  0001 C CNN "Manufacturer"
+F 5 "AP7354-33W5-7" H 1250 1500 30  0001 C CNN "Code"
+F 6 "Mouser" H 1250 1450 30  0001 C CNN "Supplier"
+F 7 "Converter LDO; Imax:150mA; Vin:5.5V; Iq:0.25µA;" H 1250 1400 30  0001 C CNN "Description"
+	1    1250 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L StepUp:AP3012 IC12
+U 1 1 624A6C54
+P 5800 1400
+F 0 "IC12" H 5800 1130 40  0000 C CNN
+F 1 "AP3012" H 5800 1200 40  0000 C CNB
+F 2 "SOT-SMD:SOT23-5" H 5800 1000 30  0001 C CNN
+F 3 "http://sqrt.pl/datasheet/AP3012.pdf" H 5800 1200 30  0001 C CNN
+F 4 "Diodes Incorporated" H 5800 1200 30  0001 C CNN "Manufacturer"
+F 5 "AP3012" H 5800 1150 30  0001 C CNN "Code"
+F 6 "TME" H 5800 1100 30  0001 C CNN "Supplier"
+F 7 "Converter Step-up; Imax:500mA; Vin:16V; Vout:29V" H 5800 1050 30  0001 C CNN "Description"
+	1    5800 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L RLC:Inductor L1
+U 1 1 61570015
+P 5800 950
+F 0 "L1" H 5800 1040 30  0000 C CNN
+F 1 "10µH" H 5800 910 30  0000 C CIN
+F 2 "Inductor:3015" H 5800 875 15  0001 C CNN
+F 3 "-" H 5800 850 30  0001 C CNN
+F 4 "Würth Elektronik" H 5800 800 30  0001 C CNN "Manufacturer"
+F 5 "74404032100" H 5800 750 30  0001 C CNN "Code"
+F 6 "Würth Elektronik" H 5800 700 30  0001 C CNN "Supplier"
+F 7 "Inductor; 0.84A; 230mΩ;" H 5800 650 30  0001 C CNN "Description"
+	1    5800 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L RLC:Capacitor C17
+U 1 1 61570027
+P 5200 1600
+F 0 "C17" H 5200 1510 30  0000 C CNN
+F 1 "10µF" H 5200 1690 30  0000 C CIN
+F 2 "Capacitor-SMD:0603" H 5200 1470 15  0001 C CNN
+F 3 "-" H 5200 1450 30  0001 C CNN
+F 4 "Würth Elektronik" H 5200 1400 30  0001 C CNN "Manufacturer"
+F 5 "885012106006" H 5200 1350 30  0001 C CNN "Code"
+F 6 "Würth Elektronik" H 5200 1300 30  0001 C CNN "Supplier"
+F 7 "Ceramic Capacitor; 6.3V; X5R; ±20%;" H 5200 1250 30  0001 C CNN "Description"
+	1    5200 1600
+	0    1    1    0   
+$EndComp
+$Comp
+L Header:2x09 CN3
+U 1 1 6128503B
+P 7250 4150
+F 0 "CN3" V 7400 4150 30  0000 C CNN
+F 1 "2x09" H 7250 3650 30  0001 C CNN
+F 2 "Header:THT-2.54-MS-2x09" H 7200 4350 60  0001 C CNN
+F 3 "-" H 7200 4350 60  0001 C CNN
+F 4 "Würth Elektronik" H 7250 3600 30  0001 C CNN "Manufacturer"
+F 5 "61301821121" H 7250 3550 30  0001 C CNN "Code"
+F 6 "Würth Elektronik" H 7250 3500 30  0001 C CNN "Supplier"
+F 7 "Heade; 2.54mm;" H 7250 3450 30  0001 C CNN "Description"
+	1    7250 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Other:Wire ECT1
+U 1 1 61435178
+P 8750 6350
+F 0 "ECT1" H 8830 6350 30  0000 L CNN
+F 1 "6-Strand" H 8750 6200 30  0001 C CNN
+F 2 "" H 8165 6610 60  0001 L CNN
+F 3 "-" H 8750 6150 30  0001 C CNN
+F 4 "Würth Elektronik" H 8750 6100 30  0001 C CNN "Manufacturer"
+F 5 "686706100001" H 8750 6050 30  0001 C CNN "Code"
+F 6 "Würth Elektronik" H 8750 6000 30  0001 C CNN "Supplier"
+F 7 "Ribbon wire; WR-FFC; L:100mm; R:1.00mm; Reverse;" H 8750 5950 30  0001 C CNN "Description"
+	1    8750 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L RLC:Capacitor C12
+U 1 1 616DF9FC
+P 5550 6150
+F 0 "C12" H 5550 6060 30  0000 C CNN
+F 1 "1nF" H 5550 6240 30  0000 C CIN
+F 2 "Capacitor-SMD:0603" H 5550 6020 15  0001 C CNN
+F 3 "-" H 5550 6000 30  0001 C CNN
+F 4 "Würth Elektronik" H 5550 5950 30  0001 C CNN "Manufacturer"
+F 5 "885012006063" H 5550 5900 30  0001 C CNN "Code"
+F 6 "Würth Elektronik" H 5550 5850 30  0001 C CNN "Supplier"
+F 7 "Ceramic Capacitor; 50V; NP0; ±5%;" H 5550 5800 30  0001 C CNN "Description"
+	1    5550 6150
+	0    1    -1   0   
+$EndComp
+$Comp
+L RLC:Resistor R8
+U 1 1 616DF9EE
+P 5700 5800
+F 0 "R8" H 5700 5860 30  0000 C CNN
+F 1 "4.7kΩ" H 5700 5740 30  0000 C CIN
+F 2 "Resistor-SMD:0603" H 5700 5650 15  0001 C CNN
+F 3 "-" H 5700 5650 30  0001 C CNN
+F 4 "Royal Ohm" H 5700 5600 30  0001 C CNN "Manufacturer"
+F 5 "0603SAF4701T5E" H 5700 5550 30  0001 C CNN "Code"
+F 6 "TME" H 5700 5500 30  0001 C CNN "Supplier"
+F 7 "Resistor; ±1%;" H 5700 5450 30  0001 C CNN "Description"
+	1    5700 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Terminal:6 CN2
+U 5 1 61DEA9CA
+P 3800 6000
+F 0 "CN2" V 3890 6100 30  0000 C CNN
+F 1 "6-Pin" H 3800 6240 30  0001 C CNN
+F 2 "WR-TBL-5.00mm:Horizontal-2427-06" H 3800 5800 60  0001 C CNN
+F 3 "-" H 3800 5800 30  0001 C CNN
+F 4 "Würth Elektronik" H 3800 5750 30  0001 C CNN "Manufacturer"
+F 5 "691242710006" H 3800 5700 30  0001 C CNN "Code"
+F 6 "Würth Elektronik" H 3800 5650 30  0001 C CNN "Supplier"
+F 7 "Terminal; 5.0mm;" H 3800 5600 30  0001 C CNN "Description"
+	5    3800 6000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L IDC:IDC8 IDC1
+U 1 1 617C8836
+P 5650 2500
+F 0 "IDC1" H 5650 2760 40  0000 C CNN
+F 1 "IDC8" H 5650 2250 40  0001 C CNN
+F 2 "IDC:SKEDD8" H 5620 2450 60  0001 C CNN
+F 3 "-" H 5650 2150 30  0001 C CNN
+F 4 "Würth Elektronik" H 5650 2100 30  0001 C CNN "Manufacturer"
+F 5 "490107670812" H 5650 2050 30  0001 C CNN "Code"
+F 6 "Würth Elektronik" H 5650 2000 30  0001 C CNN "Supplier"
+F 7 "Connector; IDC SKEDD;" H 5650 1950 30  0001 C CNN "Description"
+F 8 "0" H 5650 2500 50  0001 C CNN "Count"
+	1    5650 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Header:2x03-Mount CN4
+U 1 1 6131C010
+P 6800 2500
+F 0 "CN4" H 6800 2700 40  0000 C CNN
+F 1 "6-Pin" H 6800 2300 40  0001 C CNN
+F 2 "WR-FPC-1.00mm:Vertical-06" H 6770 2500 60  0001 C CNN
+F 3 "-" H 6800 2250 30  0001 C CNN
+F 4 "Würth Elektronik" H 6800 2200 30  0001 C CNN "Manufacturer"
+F 5 "686106183822" H 6800 2150 30  0001 C CNN "Code"
+F 6 "Würth Elektronik" H 6800 2100 30  0001 C CNN "Supplier"
+F 7 "ZIF Connector; WR-FPC; 1.00mm;" H 6800 2050 30  0001 C CNN "Description"
+	1    6800 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Opto:Optocoupler IC1
+U 1 1 613149E1
+P 5150 3450
+F 0 "IC1" H 5150 3200 40  0000 C CNN
+F 1 "LSOP4" H 5150 3270 40  0000 C CNB
+F 2 "SOIC:LSOP4" H 5150 3050 30  0001 C CNN
+F 3 "-" H 5150 3300 30  0001 C CNN
+F 4 "Würth Elektronik" H 5150 3250 30  0001 C CNN "Manufacturer"
+F 5 "140100146000" H 5150 3200 30  0001 C CNN "Code"
+F 6 "Würth Elektronik" H 5150 3150 30  0001 C CNN "Supplier"
+F 7 "Optocoupler; 5kV; 10pF;" H 5150 3100 30  0001 C CNN "Description"
+	1    5150 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L RLC:Resistor R1
+U 1 1 6135D862
+P 4750 3350
+F 0 "R1" H 4750 3410 30  0000 C CNN
+F 1 "10kΩ" H 4750 3290 30  0000 C CIN
+F 2 "Resistor-THT:MOF5WS" H 4750 3200 15  0001 C CNN
+F 3 "-" H 4750 3200 30  0001 C CNN
+F 4 "SR Passives" H 4750 3150 30  0001 C CNN "Manufacturer"
+F 5 "MOF5WS-10K" H 4750 3100 30  0001 C CNN "Code"
+F 6 "TME" H 4750 3050 30  0001 C CNN "Supplier"
+F 7 "Resistor; 5W; ±5%; Ø6x17mm;" H 4750 3000 30  0001 C CNN "Description"
+	1    4750 3350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L RLC:Resistor R5
+U 1 1 61387912
+P 5700 3350
+F 0 "R5" H 5700 3410 30  0000 C CNN
+F 1 "4.7kΩ" H 5700 3290 30  0000 C CIN
+F 2 "Resistor-SMD:0603" H 5700 3200 15  0001 C CNN
+F 3 "-" H 5700 3200 30  0001 C CNN
+F 4 "Royal Ohm" H 5700 3150 30  0001 C CNN "Manufacturer"
+F 5 "0603SAF4701T5E" H 5700 3100 30  0001 C CNN "Code"
+F 6 "TME" H 5700 3050 30  0001 C CNN "Supplier"
+F 7 "Resistor; ±1%;" H 5700 3000 30  0001 C CNN "Description"
+	1    5700 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L RLC:Resistor R6
+U 1 1 6167C8D3
+P 5700 4150
+F 0 "R6" H 5700 4210 30  0000 C CNN
+F 1 "4.7kΩ" H 5700 4090 30  0000 C CIN
+F 2 "Resistor-SMD:0603" H 5700 4000 15  0001 C CNN
+F 3 "-" H 5700 4000 30  0001 C CNN
+F 4 "Royal Ohm" H 5700 3950 30  0001 C CNN "Manufacturer"
+F 5 "0603SAF4701T5E" H 5700 3900 30  0001 C CNN "Code"
+F 6 "TME" H 5700 3850 30  0001 C CNN "Supplier"
+F 7 "Resistor; ±1%;" H 5700 3800 30  0001 C CNN "Description"
+	1    5700 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L RLC:Capacitor C10
+U 1 1 6167C8E1
+P 5550 4500
+F 0 "C10" H 5550 4410 30  0000 C CNN
+F 1 "1nF" H 5550 4590 30  0000 C CIN
+F 2 "Capacitor-SMD:0603" H 5550 4370 15  0001 C CNN
+F 3 "-" H 5550 4350 30  0001 C CNN
+F 4 "Würth Elektronik" H 5550 4300 30  0001 C CNN "Manufacturer"
+F 5 "885012006063" H 5550 4250 30  0001 C CNN "Code"
+F 6 "Würth Elektronik" H 5550 4200 30  0001 C CNN "Supplier"
+F 7 "Ceramic Capacitor; 50V; NP0; ±5%;" H 5550 4150 30  0001 C CNN "Description"
+	1    5550 4500
+	0    1    -1   0   
+$EndComp
+$Comp
+L RLC:Resistor R7
+U 1 1 616DF96D
+P 5700 5000
+F 0 "R7" H 5700 5060 30  0000 C CNN
+F 1 "4.7kΩ" H 5700 4940 30  0000 C CIN
+F 2 "Resistor-SMD:0603" H 5700 4850 15  0001 C CNN
+F 3 "-" H 5700 4850 30  0001 C CNN
+F 4 "Royal Ohm" H 5700 4800 30  0001 C CNN "Manufacturer"
+F 5 "0603SAF4701T5E" H 5700 4750 30  0001 C CNN "Code"
+F 6 "TME" H 5700 4700 30  0001 C CNN "Supplier"
+F 7 "Resistor; ±1%;" H 5700 4650 30  0001 C CNN "Description"
+	1    5700 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L RLC:Capacitor C11
+U 1 1 616DF97B
+P 5550 5350
+F 0 "C11" H 5550 5260 30  0000 C CNN
+F 1 "1nF" H 5550 5440 30  0000 C CIN
+F 2 "Capacitor-SMD:0603" H 5550 5220 15  0001 C CNN
+F 3 "-" H 5550 5200 30  0001 C CNN
+F 4 "Würth Elektronik" H 5550 5150 30  0001 C CNN "Manufacturer"
+F 5 "885012006063" H 5550 5100 30  0001 C CNN "Code"
+F 6 "Würth Elektronik" H 5550 5050 30  0001 C CNN "Supplier"
+F 7 "Ceramic Capacitor; 50V; NP0; ±5%;" H 5550 5000 30  0001 C CNN "Description"
+	1    5550 5350
+	0    1    -1   0   
+$EndComp
+$Comp
+L Terminal:6 CN2
+U 4 1 61860BA3
+P 3800 5200
+F 0 "CN2" V 3890 5300 30  0000 C CNN
+F 1 "6-Pin" H 3800 5440 30  0001 C CNN
+F 2 "WR-TBL-5.00mm:Horizontal-2427-06" H 3800 5000 60  0001 C CNN
+F 3 "-" H 3800 5000 30  0001 C CNN
+F 4 "Würth Elektronik" H 3800 4950 30  0001 C CNN "Manufacturer"
+F 5 "691242710006" H 3800 4900 30  0001 C CNN "Code"
+F 6 "Würth Elektronik" H 3800 4850 30  0001 C CNN "Supplier"
+F 7 "Terminal; 5.0mm;" H 3800 4800 30  0001 C CNN "Description"
+	4    3800 5200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Terminal:6 CN2
+U 6 1 6190669D
+P 3800 5500
+F 0 "CN2" V 3890 5600 30  0000 C CNN
+F 1 "6-Pin" H 3800 5740 30  0001 C CNN
+F 2 "WR-TBL-5.00mm:Horizontal-2427-06" H 3800 5300 60  0001 C CNN
+F 3 "-" H 3800 5300 30  0001 C CNN
+F 4 "Würth Elektronik" H 3800 5250 30  0001 C CNN "Manufacturer"
+F 5 "691242710006" H 3800 5200 30  0001 C CNN "Code"
+F 6 "Würth Elektronik" H 3800 5150 30  0001 C CNN "Supplier"
+F 7 "Terminal; 5.0mm;" H 3800 5100 30  0001 C CNN "Description"
+	6    3800 5500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Terminal:6 CN2
+U 3 1 61A867E2
+P 3800 3850
+F 0 "CN2" V 3890 3950 30  0000 C CNN
+F 1 "6-Pin" H 3800 4090 30  0001 C CNN
+F 2 "WR-TBL-5.00mm:Horizontal-2427-06" H 3800 3650 60  0001 C CNN
+F 3 "-" H 3800 3650 30  0001 C CNN
+F 4 "Würth Elektronik" H 3800 3600 30  0001 C CNN "Manufacturer"
+F 5 "691242710006" H 3800 3550 30  0001 C CNN "Code"
+F 6 "Würth Elektronik" H 3800 3500 30  0001 C CNN "Supplier"
+F 7 "Terminal; 5.0mm;" H 3800 3450 30  0001 C CNN "Description"
+	3    3800 3850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:Schottky D2
+U 1 1 61EA5825
+P 1800 5450
+F 0 "D2" H 1800 5550 30  0000 C CNN
+F 1 "SD101AW" H 1800 5350 30  0001 C CNN
+F 2 "SOD:SOD123" H 1800 5320 20  0001 C CNN
+F 3 "-" H 1800 5250 30  0001 C CNN
+F 4 "ON Semiconductor" H 1800 5200 30  0001 C CNN "Manufacturer"
+F 5 "MMSD301T1G" H 1800 5150 30  0001 C CNN "Code"
+F 6 "TME" H 1800 5100 30  0001 C CNN "Supplier"
+F 7 "Schottky Diode; 30V; 200mA; 1.5pF;" H 1800 5050 30  0001 C CNN "Description"
+	1    1800 5450
+	0    1    -1   0   
+$EndComp
+$Comp
+L RLC:Capacitor C2
+U 1 1 61EA584C
+P 950 5450
+F 0 "C2" H 950 5360 30  0000 C CNN
+F 1 "10nF" H 950 5540 30  0000 C CIN
+F 2 "Capacitor-SMD:1206" H 950 5320 15  0001 C CNN
+F 3 "-" H 950 5300 30  0001 C CNN
+F 4 "Würth Elektronik" H 950 5250 30  0001 C CNN "Manufacturer"
+F 5 "885342208021" H 950 5200 30  0001 C CNN "Code"
+F 6 "Würth Elektronik" H 950 5150 30  0001 C CNN "Supplier"
+F 7 "Ceramic Capacitor; 1000V; X7R; ±10%;" H 950 5100 30  0001 C CNN "Description"
+	1    950  5450
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:Relay-NO K2
+U 1 1 61EA5871
+P 1300 5450
+F 0 "K2" V 1270 5660 30  0000 L CNN
+F 1 "AZ9371T" V 1330 5660 30  0000 L CNN
+F 2 "Relay:AZ9371" H 1300 4950 30  0001 C CNN
+F 3 "-" H 1300 5150 30  0001 C CNN
+F 4 "Zettler" H 1300 5150 30  0001 C CNN "Manufacturer"
+F 5 "AZ9371T-1A-12D" H 1300 5100 30  0001 C CNN "Code"
+F 6 "TME" H 1300 5050 30  0001 C CNN "Supplier"
+F 7 "Relay; 12VDC; 10A;" H 1300 5000 30  0001 C CNN "Description"
+	1    1300 5450
+	0    1    -1   0   
+$EndComp
+$Comp
+L Transistor:Bipolar-2NPN-2R T1
+U 2 1 61EA5885
+P 1350 5950
+F 0 "T1" H 1260 5890 30  0000 R CNN
+F 1 "BCR108" H 1260 5840 30  0000 R CNN
+F 2 "SOT-SMD:SOT363-6" H 1330 5950 40  0001 C CNN
+F 3 "-" H 1350 5550 30  0001 C CNN
+F 4 "Infineon Technologies" H 1350 5500 30  0001 C CNN "Manufacturer"
+F 5 "BCR108SH6327" H 1350 5450 30  0001 C CNN "Code"
+F 6 "TME" H 1350 5400 30  0001 C CNN "Supplier"
+F 7 "Transiztor 2xNPN; 50V; 500mA; 330mW; Reb:10kΩ; Rb:1kΩ;" H 1350 5350 30  0001 C CNN "Description"
+	2    1350 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Terminal:6 CN1
+U 4 1 61EDFBD3
+P 800 5150
+F 0 "CN1" V 890 5250 30  0000 C CNN
+F 1 "6-Pin" H 800 5390 30  0001 C CNN
+F 2 "WR-TBL-5.00mm:Horizontal-2427-06" H 800 4950 60  0001 C CNN
+F 3 "-" H 800 4950 30  0001 C CNN
+F 4 "Würth Elektronik" H 800 4900 30  0001 C CNN "Manufacturer"
+F 5 "691242710006" H 800 4850 30  0001 C CNN "Code"
+F 6 "Würth Elektronik" H 800 4800 30  0001 C CNN "Supplier"
+F 7 "Terminal; 5.0mm;" H 800 4750 30  0001 C CNN "Description"
+	4    800  5150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:Schottky D4
+U 1 1 61FBC02D
+P 3200 5450
+F 0 "D4" H 3200 5550 30  0000 C CNN
+F 1 "SD101AW" H 3200 5350 30  0001 C CNN
+F 2 "SOD:SOD123" H 3200 5320 20  0001 C CNN
+F 3 "-" H 3200 5250 30  0001 C CNN
+F 4 "ON Semiconductor" H 3200 5200 30  0001 C CNN "Manufacturer"
+F 5 "MMSD301T1G" H 3200 5150 30  0001 C CNN "Code"
+F 6 "TME" H 3200 5100 30  0001 C CNN "Supplier"
+F 7 "Schottky Diode; 30V; 200mA; 1.5pF;" H 3200 5050 30  0001 C CNN "Description"
+	1    3200 5450
+	0    1    -1   0   
+$EndComp
+$Comp
+L RLC:Capacitor C4
+U 1 1 61FBC046
+P 2350 5450
+F 0 "C4" H 2350 5360 30  0000 C CNN
+F 1 "10nF" H 2350 5540 30  0000 C CIN
+F 2 "Capacitor-SMD:1206" H 2350 5320 15  0001 C CNN
+F 3 "-" H 2350 5300 30  0001 C CNN
+F 4 "Würth Elektronik" H 2350 5250 30  0001 C CNN "Manufacturer"
+F 5 "885342208021" H 2350 5200 30  0001 C CNN "Code"
+F 6 "Würth Elektronik" H 2350 5150 30  0001 C CNN "Supplier"
+F 7 "Ceramic Capacitor; 1000V; X7R; ±10%;" H 2350 5100 30  0001 C CNN "Description"
+	1    2350 5450
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:Relay-NO K4
+U 1 1 61FBC06B
+P 2700 5450
+F 0 "K4" V 2670 5660 30  0000 L CNN
+F 1 "AZ9371T" V 2730 5660 30  0000 L CNN
+F 2 "Relay:AZ9371" H 2700 4950 30  0001 C CNN
+F 3 "-" H 2700 5150 30  0001 C CNN
+F 4 "Zettler" H 2700 5150 30  0001 C CNN "Manufacturer"
+F 5 "AZ9371T-1A-12D" H 2700 5100 30  0001 C CNN "Code"
+F 6 "TME" H 2700 5050 30  0001 C CNN "Supplier"
+F 7 "Relay; 12VDC; 10A;" H 2700 5000 30  0001 C CNN "Description"
+	1    2700 5450
+	0    1    -1   0   
+$EndComp
+$Comp
+L Transistor:Bipolar-2NPN-2R T2
+U 2 1 61FBC07F
+P 2750 5950
+F 0 "T2" H 2660 5890 30  0000 R CNN
+F 1 "BCR108" H 2660 5840 30  0000 R CNN
+F 2 "SOT-SMD:SOT363-6" H 2730 5950 40  0001 C CNN
+F 3 "-" H 2750 5550 30  0001 C CNN
+F 4 "Infineon Technologies" H 2750 5500 30  0001 C CNN "Manufacturer"
+F 5 "BCR108SH6327" H 2750 5450 30  0001 C CNN "Code"
+F 6 "TME" H 2750 5400 30  0001 C CNN "Supplier"
+F 7 "Transiztor 2xNPN; 50V; 500mA; 330mW; Reb:10kΩ; Rb:1kΩ;" H 2750 5350 30  0001 C CNN "Description"
+	2    2750 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Terminal:6 CN1
+U 1 1 61FBC08D
+P 2200 5150
+F 0 "CN1" V 2290 5250 30  0000 C CNN
+F 1 "6-Pin" H 2200 5390 30  0001 C CNN
+F 2 "WR-TBL-5.00mm:Horizontal-2427-06" H 2200 4950 60  0001 C CNN
+F 3 "-" H 2200 4950 30  0001 C CNN
+F 4 "Würth Elektronik" H 2200 4900 30  0001 C CNN "Manufacturer"
+F 5 "691242710006" H 2200 4850 30  0001 C CNN "Code"
+F 6 "Würth Elektronik" H 2200 4800 30  0001 C CNN "Supplier"
+F 7 "Terminal; 5.0mm;" H 2200 4750 30  0001 C CNN "Description"
+	1    2200 5150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:Schottky D1
+U 1 1 6195C7F8
+P 1800 3750
+F 0 "D1" H 1800 3850 30  0000 C CNN
+F 1 "SD101AW" H 1800 3650 30  0001 C CNN
+F 2 "SOD:SOD123" H 1800 3620 20  0001 C CNN
+F 3 "-" H 1800 3550 30  0001 C CNN
+F 4 "ON Semiconductor" H 1800 3500 30  0001 C CNN "Manufacturer"
+F 5 "MMSD301T1G" H 1800 3450 30  0001 C CNN "Code"
+F 6 "TME" H 1800 3400 30  0001 C CNN "Supplier"
+F 7 "Schottky Diode; 30V; 200mA; 1.5pF;" H 1800 3350 30  0001 C CNN "Description"
+	1    1800 3750
+	0    1    -1   0   
+$EndComp
+$Comp
+L Terminal:6 CN1
+U 5 1 61A50970
+P 800 3450
+F 0 "CN1" V 890 3550 30  0000 C CNN
+F 1 "6-Pin" H 800 3690 30  0001 C CNN
+F 2 "WR-TBL-5.00mm:Horizontal-2427-06" H 800 3250 60  0001 C CNN
+F 3 "-" H 800 3250 30  0001 C CNN
+F 4 "Würth Elektronik" H 800 3200 30  0001 C CNN "Manufacturer"
+F 5 "691242710006" H 800 3150 30  0001 C CNN "Code"
+F 6 "Würth Elektronik" H 800 3100 30  0001 C CNN "Supplier"
+F 7 "Terminal; 5.0mm;" H 800 3050 30  0001 C CNN "Description"
+	5    800  3450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L RLC:Capacitor C1
+U 1 1 619BF554
+P 950 3750
+F 0 "C1" H 950 3660 30  0000 C CNN
+F 1 "10nF" H 950 3840 30  0000 C CIN
+F 2 "Capacitor-SMD:1206" H 950 3620 15  0001 C CNN
+F 3 "-" H 950 3600 30  0001 C CNN
+F 4 "Würth Elektronik" H 950 3550 30  0001 C CNN "Manufacturer"
+F 5 "885342208021" H 950 3500 30  0001 C CNN "Code"
+F 6 "Würth Elektronik" H 950 3450 30  0001 C CNN "Supplier"
+F 7 "Ceramic Capacitor; 1000V; X7R; ±10%;" H 950 3400 30  0001 C CNN "Description"
+	1    950  3750
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:Relay-NO K1
+U 1 1 6177EDA8
+P 1300 3750
+F 0 "K1" V 1270 3960 30  0000 L CNN
+F 1 "AZ9371T" V 1330 3960 30  0000 L CNN
+F 2 "Relay:AZ9371" H 1300 3250 30  0001 C CNN
+F 3 "-" H 1300 3450 30  0001 C CNN
+F 4 "Zettler" H 1300 3450 30  0001 C CNN "Manufacturer"
+F 5 "AZ9371T-1A-12D" H 1300 3400 30  0001 C CNN "Code"
+F 6 "TME" H 1300 3350 30  0001 C CNN "Supplier"
+F 7 "Relay; 12VDC; 10A;" H 1300 3300 30  0001 C CNN "Description"
+	1    1300 3750
+	0    1    -1   0   
+$EndComp
+$Comp
+L Transistor:Bipolar-2NPN-2R T1
+U 1 1 6168BDAE
+P 1350 4250
+F 0 "T1" H 1260 4190 30  0000 R CNN
+F 1 "BCR108" H 1260 4140 30  0000 R CNN
+F 2 "SOT-SMD:SOT363-6" H 1330 4250 40  0001 C CNN
+F 3 "-" H 1350 3850 30  0001 C CNN
+F 4 "Infineon Technologies" H 1350 3800 30  0001 C CNN "Manufacturer"
+F 5 "BCR108SH6327" H 1350 3750 30  0001 C CNN "Code"
+F 6 "TME" H 1350 3700 30  0001 C CNN "Supplier"
+F 7 "Transiztor 2xNPN; 50V; 500mA; 330mW; Reb:10kΩ; Rb:1kΩ;" H 1350 3650 30  0001 C CNN "Description"
+	1    1350 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Terminal:6 CN1
+U 6 1 61F06E9A
+P 800 4500
+F 0 "CN1" V 890 4600 30  0000 C CNN
+F 1 "6-Pin" H 800 4740 30  0001 C CNN
+F 2 "WR-TBL-5.00mm:Horizontal-2427-06" H 800 4300 60  0001 C CNN
+F 3 "-" H 800 4300 30  0001 C CNN
+F 4 "Würth Elektronik" H 800 4250 30  0001 C CNN "Manufacturer"
+F 5 "691242710006" H 800 4200 30  0001 C CNN "Code"
+F 6 "Würth Elektronik" H 800 4150 30  0001 C CNN "Supplier"
+F 7 "Terminal; 5.0mm;" H 800 4100 30  0001 C CNN "Description"
+	6    800  4500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:Schottky D3
+U 1 1 61FBBFBB
+P 3200 3750
+F 0 "D3" H 3200 3850 30  0000 C CNN
+F 1 "SD101AW" H 3200 3650 30  0001 C CNN
+F 2 "SOD:SOD123" H 3200 3620 20  0001 C CNN
+F 3 "-" H 3200 3550 30  0001 C CNN
+F 4 "ON Semiconductor" H 3200 3500 30  0001 C CNN "Manufacturer"
+F 5 "MMSD301T1G" H 3200 3450 30  0001 C CNN "Code"
+F 6 "TME" H 3200 3400 30  0001 C CNN "Supplier"
+F 7 "Schottky Diode; 30V; 200mA; 1.5pF;" H 3200 3350 30  0001 C CNN "Description"
+	1    3200 3750
+	0    1    -1   0   
+$EndComp
+$Comp
+L Terminal:6 CN1
+U 2 1 61FBBFCC
+P 2200 3450
+F 0 "CN1" V 2290 3550 30  0000 C CNN
+F 1 "6-Pin" H 2200 3690 30  0001 C CNN
+F 2 "WR-TBL-5.00mm:Horizontal-2427-06" H 2200 3250 60  0001 C CNN
+F 3 "-" H 2200 3250 30  0001 C CNN
+F 4 "Würth Elektronik" H 2200 3200 30  0001 C CNN "Manufacturer"
+F 5 "691242710006" H 2200 3150 30  0001 C CNN "Code"
+F 6 "Würth Elektronik" H 2200 3100 30  0001 C CNN "Supplier"
+F 7 "Terminal; 5.0mm;" H 2200 3050 30  0001 C CNN "Description"
+	2    2200 3450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L RLC:Capacitor C3
+U 1 1 61FBBFE2
+P 2350 3750
+F 0 "C3" H 2350 3660 30  0000 C CNN
+F 1 "10nF" H 2350 3840 30  0000 C CIN
+F 2 "Capacitor-SMD:1206" H 2350 3620 15  0001 C CNN
+F 3 "-" H 2350 3600 30  0001 C CNN
+F 4 "Würth Elektronik" H 2350 3550 30  0001 C CNN "Manufacturer"
+F 5 "885342208021" H 2350 3500 30  0001 C CNN "Code"
+F 6 "Würth Elektronik" H 2350 3450 30  0001 C CNN "Supplier"
+F 7 "Ceramic Capacitor; 1000V; X7R; ±10%;" H 2350 3400 30  0001 C CNN "Description"
+	1    2350 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:Relay-NO K3
+U 1 1 61FBC007
+P 2700 3750
+F 0 "K3" V 2670 3960 30  0000 L CNN
+F 1 "AZ9371T" V 2730 3960 30  0000 L CNN
+F 2 "Relay:AZ9371" H 2700 3250 30  0001 C CNN
+F 3 "-" H 2700 3450 30  0001 C CNN
+F 4 "Zettler" H 2700 3450 30  0001 C CNN "Manufacturer"
+F 5 "AZ9371T-1A-12D" H 2700 3400 30  0001 C CNN "Code"
+F 6 "TME" H 2700 3350 30  0001 C CNN "Supplier"
+F 7 "Relay; 12VDC; 10A;" H 2700 3300 30  0001 C CNN "Description"
+	1    2700 3750
+	0    1    -1   0   
+$EndComp
+$Comp
+L Transistor:Bipolar-2NPN-2R T2
+U 1 1 61FBC01B
+P 2750 4250
+F 0 "T2" H 2660 4190 30  0000 R CNN
+F 1 "BCR108" H 2660 4140 30  0000 R CNN
+F 2 "SOT-SMD:SOT363-6" H 2730 4250 40  0001 C CNN
+F 3 "-" H 2750 3850 30  0001 C CNN
+F 4 "Infineon Technologies" H 2750 3800 30  0001 C CNN "Manufacturer"
+F 5 "BCR108SH6327" H 2750 3750 30  0001 C CNN "Code"
+F 6 "TME" H 2750 3700 30  0001 C CNN "Supplier"
+F 7 "Transiztor 2xNPN; 50V; 500mA; 330mW; Reb:10kΩ; Rb:1kΩ;" H 2750 3650 30  0001 C CNN "Description"
+	1    2750 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Terminal:6 CN1
+U 3 1 61FBC09B
+P 2200 4500
+F 0 "CN1" V 2290 4600 30  0000 C CNN
+F 1 "6-Pin" H 2200 4740 30  0001 C CNN
+F 2 "WR-TBL-5.00mm:Horizontal-2427-06" H 2200 4300 60  0001 C CNN
+F 3 "-" H 2200 4300 30  0001 C CNN
+F 4 "Würth Elektronik" H 2200 4250 30  0001 C CNN "Manufacturer"
+F 5 "691242710006" H 2200 4200 30  0001 C CNN "Code"
+F 6 "Würth Elektronik" H 2200 4150 30  0001 C CNN "Supplier"
+F 7 "Terminal; 5.0mm;" H 2200 4100 30  0001 C CNN "Description"
+	3    2200 4500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L RLC:Capacitor C13
+U 1 1 6184A000
+P 1900 1900
+F 0 "C13" H 1900 1810 30  0000 C CNN
+F 1 "1nF" H 1900 1990 30  0000 C CIN
+F 2 "Capacitor-SMD:0603" H 1900 1770 15  0001 C CNN
+F 3 "-" H 1900 1750 30  0001 C CNN
+F 4 "Würth Elektronik" H 1900 1700 30  0001 C CNN "Manufacturer"
+F 5 "885012006063" H 1900 1650 30  0001 C CNN "Code"
+F 6 "Würth Elektronik" H 1900 1600 30  0001 C CNN "Supplier"
+F 7 "Ceramic Capacitor; 50V; NP0; ±5%;" H 1900 1550 30  0001 C CNN "Description"
+	1    1900 1900
+	0    1    1    0   
+$EndComp
+$Comp
+L RLC:Capacitor C14
+U 1 1 61849FAF
+P 1650 1900
+F 0 "C14" H 1650 1990 30  0000 C CNN
+F 1 "10µF" H 1650 1815 30  0000 C CIN
+F 2 "Capacitor-SMD:0603" H 1650 1770 15  0001 C CNN
+F 3 "-" H 1650 1750 30  0001 C CNN
+F 4 "Würth Elektronik" H 1650 1700 30  0001 C CNN "Manufacturer"
+F 5 "885012106006" H 1650 1650 30  0001 C CNN "Code"
+F 6 "Würth Elektronik" H 1650 1600 30  0001 C CNN "Supplier"
+F 7 "Ceramic Capacitor; 6.3V; X5R; ±20%;" H 1650 1550 30  0001 C CNN "Description"
+	1    1650 1900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L RLC:Capacitor C15
+U 1 1 61849F79
+P 800 1900
+F 0 "C15" H 800 1990 30  0000 C CNN
+F 1 "10µF" H 800 1815 30  0000 C CIN
+F 2 "Capacitor-SMD:0603" H 800 1770 15  0001 C CNN
+F 3 "-" H 800 1750 30  0001 C CNN
+F 4 "Würth Elektronik" H 800 1700 30  0001 C CNN "Manufacturer"
+F 5 "885012106006" H 800 1650 30  0001 C CNN "Code"
+F 6 "Würth Elektronik" H 800 1600 30  0001 C CNN "Supplier"
+F 7 "Ceramic Capacitor; 6.3V; X5R; ±20%;" H 800 1550 30  0001 C CNN "Description"
+	1    800  1900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L RLC:Capacitor C16
+U 1 1 6251F13F
+P 2400 2300
+F 0 "C16" H 2400 2390 30  0000 C CNN
+F 1 "10µF" H 2400 2215 30  0000 C CIN
+F 2 "Capacitor-SMD:0603" H 2400 2170 15  0001 C CNN
+F 3 "-" H 2400 2150 30  0001 C CNN
+F 4 "Würth Elektronik" H 2400 2100 30  0001 C CNN "Manufacturer"
+F 5 "885012106006" H 2400 2050 30  0001 C CNN "Code"
+F 6 "Würth Elektronik" H 2400 2000 30  0001 C CNN "Supplier"
+F 7 "Ceramic Capacitor; 6.3V; X5R; ±20%;" H 2400 1950 30  0001 C CNN "Description"
+	1    2400 2300
+	0    -1   -1   0   
+$EndComp
+NoConn ~ 4050 2600
+Wire Wire Line
+	7300 4150 7300 4250
+Connection ~ 7300 4250
+Wire Wire Line
+	5400 3550 5400 3850
+Wire Wire Line
+	5550 3850 5550 3800
+$Comp
+L Tag:GND #PWR0101
+U 1 1 63520D49
+P 5550 3850
+F 0 "#PWR0101" H 5550 3800 30  0001 C CNN
+F 1 "GND" H 5550 3980 30  0000 C CNN
+F 2 "" H 5550 3850 60  0001 C CNN
+F 3 "" H 5550 3850 60  0001 C CNN
+	1    5550 3850
+	-1   0    0    1   
+$EndComp
+$Comp
+L RLC:Capacitor C9
+U 1 1 615961EB
+P 5550 3700
+F 0 "C9" H 5550 3610 30  0000 C CNN
+F 1 "1nF" H 5550 3790 30  0000 C CIN
+F 2 "Capacitor-SMD:0603" H 5550 3570 15  0001 C CNN
+F 3 "-" H 5550 3550 30  0001 C CNN
+F 4 "Würth Elektronik" H 5550 3500 30  0001 C CNN "Manufacturer"
+F 5 "885012006063" H 5550 3450 30  0001 C CNN "Code"
+F 6 "Würth Elektronik" H 5550 3400 30  0001 C CNN "Supplier"
+F 7 "Ceramic Capacitor; 50V; NP0; ±5%;" H 5550 3350 30  0001 C CNN "Description"
+	1    5550 3700
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	3750 4150 3850 4150
+Wire Wire Line
+	3750 5000 3850 5000
+Text GLabel 3750 5000 0    30   Input ~ 0
+L2-
+Text GLabel 5850 4350 2    30   Input ~ 0
+IN2
+Wire Wire Line
+	3750 5800 3850 5800
+Text GLabel 3750 5800 0    30   Input ~ 0
+L2-
+$Comp
+L Tag:+12V #PWR0152
+U 1 1 64B06FFC
+P 8950 6900
+F 0 "#PWR0152" H 8950 6850 30  0001 C CNN
+F 1 "+12V" V 8945 7085 30  0000 C CNN
+F 2 "" H 8950 6900 60  0001 C CNN
+F 3 "" H 8950 6900 60  0001 C CNN
+	1    8950 6900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Tag:FLG #FLG0102
+U 1 1 64B268E4
+P 8950 6750
+F 0 "#FLG0102" H 8955 6705 30  0001 C CNN
+F 1 "FLG" V 8950 6920 30  0000 C CNN
+F 2 "" H 8950 6750 50  0001 C CNN
+F 3 "" H 8950 6750 50  0001 C CNN
+	1    8950 6750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8950 6900 8950 6750
+Text GLabel 5850 3550 2    30   Input ~ 0
+IN1
+$Comp
+L Terminal:6 CN2
+U 2 1 61A46EFF
+P 3800 4350
+F 0 "CN2" V 3890 4450 30  0000 C CNN
+F 1 "6-Pin" H 3800 4590 30  0001 C CNN
+F 2 "WR-TBL-5.00mm:Horizontal-2427-06" H 3800 4150 60  0001 C CNN
+F 3 "-" H 3800 4150 30  0001 C CNN
+F 4 "Würth Elektronik" H 3800 4100 30  0001 C CNN "Manufacturer"
+F 5 "691242710006" H 3800 4050 30  0001 C CNN "Code"
+F 6 "Würth Elektronik" H 3800 4000 30  0001 C CNN "Supplier"
+F 7 "Terminal; 5.0mm;" H 3800 3950 30  0001 C CNN "Description"
+	2    3800 4350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3800 4350 3850 4350
+Wire Wire Line
+	3800 5200 3850 5200
+Wire Wire Line
+	3800 6000 3850 6000
+$Comp
+L Terminal:6 CN2
+U 1 1 61AA5E05
+P 3800 3550
+F 0 "CN2" V 3890 3650 30  0000 C CNN
+F 1 "6-Pin" H 3800 3790 30  0001 C CNN
+F 2 "WR-TBL-5.00mm:Horizontal-2427-06" H 3800 3350 60  0001 C CNN
+F 3 "-" H 3800 3350 30  0001 C CNN
+F 4 "Würth Elektronik" H 3800 3300 30  0001 C CNN "Manufacturer"
+F 5 "691242710006" H 3800 3250 30  0001 C CNN "Code"
+F 6 "Würth Elektronik" H 3800 3200 30  0001 C CNN "Supplier"
+F 7 "Terminal; 5.0mm;" H 3800 3150 30  0001 C CNN "Description"
+	1    3800 3550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4350 3550 4450 3550
+Wire Wire Line
+	4350 3350 4600 3350
+Wire Wire Line
+	3750 3350 3850 3350
+Wire Wire Line
+	3800 3550 3850 3550
+$Comp
+L RLC:Capacitor C5
+U 1 1 6137618D
+P 4450 3700
+F 0 "C5" H 4450 3610 30  0000 C CNN
+F 1 "10nF" H 4450 3790 30  0000 C CIN
+F 2 "Capacitor-SMD:1206" H 4450 3570 15  0001 C CNN
+F 3 "-" H 4450 3550 30  0001 C CNN
+F 4 "Würth Elektronik" H 4450 3500 30  0001 C CNN "Manufacturer"
+F 5 "885342208021" H 4450 3450 30  0001 C CNN "Code"
+F 6 "Würth Elektronik" H 4450 3400 30  0001 C CNN "Supplier"
+F 7 "Ceramic Capacitor; 1000V; X7R; ±10%;" H 4450 3350 30  0001 C CNN "Description"
+	1    4450 3700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4450 3600 4450 3550
+Connection ~ 4450 3550
+Wire Wire Line
+	4450 3800 4450 3850
+Wire Wire Line
+	4450 3850 4600 3850
+Wire Wire Line
+	4600 3850 4600 3350
+Wire Wire Line
+	5350 3350 5550 3350
+Wire Wire Line
+	5550 3600 5550 3550
+Wire Wire Line
+	5800 3350 5850 3350
+$Comp
+L Tag:+3V3 #PWR0135
+U 1 1 61733AB4
+P 5850 3350
+F 0 "#PWR0135" H 5850 3300 30  0001 C CNN
+F 1 "+3V3" V 5845 3535 30  0000 C CNN
+F 2 "" H 5850 3350 60  0001 C CNN
+F 3 "" H 5850 3350 60  0001 C CNN
+	1    5850 3350
+	0    1    1    0   
+$EndComp
+$Comp
+L Tag:GND #PWR0120
+U 1 1 614DADBA
+P 5400 3850
+F 0 "#PWR0120" H 5400 3800 30  0001 C CNN
+F 1 "GND" H 5400 3980 30  0000 C CNN
+F 2 "" H 5400 3850 60  0001 C CNN
+F 3 "" H 5400 3850 60  0001 C CNN
+	1    5400 3850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5600 3350 5550 3350
+Connection ~ 5550 3350
+Wire Wire Line
+	5850 3550 5550 3550
+Connection ~ 5550 3550
+Wire Wire Line
+	5550 3550 5550 3350
+Wire Wire Line
+	5350 4350 5400 4350
+Wire Wire Line
+	5400 4350 5400 4650
+Wire Wire Line
+	5550 4650 5550 4600
+$Comp
+L Tag:GND #PWR0117
+U 1 1 6382A532
+P 5550 4650
+F 0 "#PWR0117" H 5550 4600 30  0001 C CNN
+F 1 "GND" H 5550 4780 30  0000 C CNN
+F 2 "" H 5550 4650 60  0001 C CNN
+F 3 "" H 5550 4650 60  0001 C CNN
+	1    5550 4650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5350 4150 5550 4150
+Wire Wire Line
+	5550 4400 5550 4350
+Wire Wire Line
+	5800 4150 5850 4150
+$Comp
+L Tag:+3V3 #PWR0118
+U 1 1 6382A54E
+P 5850 4150
+F 0 "#PWR0118" H 5850 4100 30  0001 C CNN
+F 1 "+3V3" V 5845 4335 30  0000 C CNN
+F 2 "" H 5850 4150 60  0001 C CNN
+F 3 "" H 5850 4150 60  0001 C CNN
+	1    5850 4150
+	0    1    1    0   
+$EndComp
+$Comp
+L Tag:GND #PWR0119
+U 1 1 6382A558
+P 5400 4650
+F 0 "#PWR0119" H 5400 4600 30  0001 C CNN
+F 1 "GND" H 5400 4780 30  0000 C CNN
+F 2 "" H 5400 4650 60  0001 C CNN
+F 3 "" H 5400 4650 60  0001 C CNN
+	1    5400 4650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5600 4150 5550 4150
+Connection ~ 5550 4150
+Wire Wire Line
+	5850 4350 5550 4350
+Connection ~ 5550 4350
+Wire Wire Line
+	5550 4350 5550 4150
+Wire Wire Line
+	5350 5200 5400 5200
+Wire Wire Line
+	5400 5200 5400 5500
+Wire Wire Line
+	5550 5500 5550 5450
+$Comp
+L Tag:GND #PWR0126
+U 1 1 6384F1AB
+P 5550 5500
+F 0 "#PWR0126" H 5550 5450 30  0001 C CNN
+F 1 "GND" H 5550 5630 30  0000 C CNN
+F 2 "" H 5550 5500 60  0001 C CNN
+F 3 "" H 5550 5500 60  0001 C CNN
+	1    5550 5500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5350 5000 5550 5000
+Wire Wire Line
+	5550 5250 5550 5200
+Wire Wire Line
+	5800 5000 5850 5000
+$Comp
+L Tag:+3V3 #PWR0136
+U 1 1 6384F1C7
+P 5850 5000
+F 0 "#PWR0136" H 5850 4950 30  0001 C CNN
+F 1 "+3V3" V 5845 5185 30  0000 C CNN
+F 2 "" H 5850 5000 60  0001 C CNN
+F 3 "" H 5850 5000 60  0001 C CNN
+	1    5850 5000
+	0    1    1    0   
+$EndComp
+$Comp
+L Tag:GND #PWR0137
+U 1 1 6384F1D1
+P 5400 5500
+F 0 "#PWR0137" H 5400 5450 30  0001 C CNN
+F 1 "GND" H 5400 5630 30  0000 C CNN
+F 2 "" H 5400 5500 60  0001 C CNN
+F 3 "" H 5400 5500 60  0001 C CNN
+	1    5400 5500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5600 5000 5550 5000
+Connection ~ 5550 5000
+Wire Wire Line
+	5850 5200 5550 5200
+Connection ~ 5550 5200
+Wire Wire Line
+	5550 5200 5550 5000
+Wire Wire Line
+	5350 6000 5400 6000
+Wire Wire Line
+	5400 6000 5400 6300
+Wire Wire Line
+	5550 6300 5550 6250
+$Comp
+L Tag:GND #PWR0138
+U 1 1 6386C6B8
+P 5550 6300
+F 0 "#PWR0138" H 5550 6250 30  0001 C CNN
+F 1 "GND" H 5550 6430 30  0000 C CNN
+F 2 "" H 5550 6300 60  0001 C CNN
+F 3 "" H 5550 6300 60  0001 C CNN
+	1    5550 6300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5350 5800 5550 5800
+Wire Wire Line
+	5550 6050 5550 6000
+Wire Wire Line
+	5800 5800 5850 5800
+$Comp
+L Tag:+3V3 #PWR0146
+U 1 1 6386C6D4
+P 5850 5800
+F 0 "#PWR0146" H 5850 5750 30  0001 C CNN
+F 1 "+3V3" V 5845 5985 30  0000 C CNN
+F 2 "" H 5850 5800 60  0001 C CNN
+F 3 "" H 5850 5800 60  0001 C CNN
+	1    5850 5800
+	0    1    1    0   
+$EndComp
+$Comp
+L Tag:GND #PWR0147
+U 1 1 6386C6DE
+P 5400 6300
+F 0 "#PWR0147" H 5400 6250 30  0001 C CNN
+F 1 "GND" H 5400 6430 30  0000 C CNN
+F 2 "" H 5400 6300 60  0001 C CNN
+F 3 "" H 5400 6300 60  0001 C CNN
+	1    5400 6300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5600 5800 5550 5800
+Connection ~ 5550 5800
+Wire Wire Line
+	5850 6000 5550 6000
+Connection ~ 5550 6000
+Wire Wire Line
+	5550 6000 5550 5800
+$Comp
+L Diode:GretzBridge IC5
+U 1 1 63273502
+P 4100 3450
+F 0 "IC5" H 4100 3700 40  0000 C CNN
+F 1 "ABS15M" H 4100 3630 40  0000 C CNB
+F 2 "SMD:ABS" H 4100 3050 30  0001 C CNN
+F 3 "-" H 4100 3300 30  0001 C CNN
+F 4 "Diotec Semiconductor" H 4100 3250 30  0001 C CNN "Manufacturer"
+F 5 "ABS15M" H 4100 3200 30  0001 C CNN "Code"
+F 6 "TME" H 4100 3150 30  0001 C CNN "Supplier"
+F 7 "Gretz Bridge; 1.6A; 1kV;" H 4100 3100 30  0001 C CNN "Description"
+	1    4100 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 3350 4650 3350
+Connection ~ 4600 3350
+Wire Wire Line
+	4850 3350 4950 3350
+Wire Wire Line
+	4450 3550 4950 3550
+$Comp
+L Opto:Optocoupler IC2
+U 1 1 6348FC9E
+P 5150 4250
+F 0 "IC2" H 5150 4000 40  0000 C CNN
+F 1 "LSOP4" H 5150 4070 40  0000 C CNB
+F 2 "SOIC:LSOP4" H 5150 3850 30  0001 C CNN
+F 3 "-" H 5150 4100 30  0001 C CNN
+F 4 "Würth Elektronik" H 5150 4050 30  0001 C CNN "Manufacturer"
+F 5 "140100146000" H 5150 4000 30  0001 C CNN "Code"
+F 6 "Würth Elektronik" H 5150 3950 30  0001 C CNN "Supplier"
+F 7 "Optocoupler; 5kV; 10pF;" H 5150 3900 30  0001 C CNN "Description"
+	1    5150 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L RLC:Resistor R2
+U 1 1 63490248
+P 4750 4150
+F 0 "R2" H 4750 4210 30  0000 C CNN
+F 1 "10kΩ" H 4750 4090 30  0000 C CIN
+F 2 "Resistor-THT:MOF5WS" H 4750 4000 15  0001 C CNN
+F 3 "-" H 4750 4000 30  0001 C CNN
+F 4 "SR Passives" H 4750 3950 30  0001 C CNN "Manufacturer"
+F 5 "MOF5WS-10K" H 4750 3900 30  0001 C CNN "Code"
+F 6 "TME" H 4750 3850 30  0001 C CNN "Supplier"
+F 7 "Resistor; 5W; ±5%; Ø6x17mm;" H 4750 3800 30  0001 C CNN "Description"
+	1    4750 4150
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 4350 4450 4350
+Wire Wire Line
+	4350 4150 4600 4150
+$Comp
+L RLC:Capacitor C6
+U 1 1 63490258
+P 4450 4500
+F 0 "C6" H 4450 4410 30  0000 C CNN
+F 1 "10nF" H 4450 4590 30  0000 C CIN
+F 2 "Capacitor-SMD:1206" H 4450 4370 15  0001 C CNN
+F 3 "-" H 4450 4350 30  0001 C CNN
+F 4 "Würth Elektronik" H 4450 4300 30  0001 C CNN "Manufacturer"
+F 5 "885342208021" H 4450 4250 30  0001 C CNN "Code"
+F 6 "Würth Elektronik" H 4450 4200 30  0001 C CNN "Supplier"
+F 7 "Ceramic Capacitor; 1000V; X7R; ±10%;" H 4450 4150 30  0001 C CNN "Description"
+	1    4450 4500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4450 4400 4450 4350
+Connection ~ 4450 4350
+Wire Wire Line
+	4450 4600 4450 4650
+Wire Wire Line
+	4450 4650 4600 4650
+Wire Wire Line
+	4600 4650 4600 4150
+$Comp
+L Diode:GretzBridge IC6
+U 1 1 6349026B
+P 4100 4250
+F 0 "IC6" H 4100 4500 40  0000 C CNN
+F 1 "ABS15M" H 4100 4430 40  0000 C CNB
+F 2 "SMD:ABS" H 4100 3850 30  0001 C CNN
+F 3 "-" H 4100 4100 30  0001 C CNN
+F 4 "Diotec Semiconductor" H 4100 4050 30  0001 C CNN "Manufacturer"
+F 5 "ABS15M" H 4100 4000 30  0001 C CNN "Code"
+F 6 "TME" H 4100 3950 30  0001 C CNN "Supplier"
+F 7 "Gretz Bridge; 1.6A; 1kV;" H 4100 3900 30  0001 C CNN "Description"
+	1    4100 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 4150 4650 4150
+Connection ~ 4600 4150
+Wire Wire Line
+	4850 4150 4950 4150
+Wire Wire Line
+	4450 4350 4950 4350
+$Comp
+L Opto:Optocoupler IC3
+U 1 1 634AC0C6
+P 5150 5100
+F 0 "IC3" H 5150 4850 40  0000 C CNN
+F 1 "LSOP4" H 5150 4920 40  0000 C CNB
+F 2 "SOIC:LSOP4" H 5150 4700 30  0001 C CNN
+F 3 "-" H 5150 4950 30  0001 C CNN
+F 4 "Würth Elektronik" H 5150 4900 30  0001 C CNN "Manufacturer"
+F 5 "140100146000" H 5150 4850 30  0001 C CNN "Code"
+F 6 "Würth Elektronik" H 5150 4800 30  0001 C CNN "Supplier"
+F 7 "Optocoupler; 5kV; 10pF;" H 5150 4750 30  0001 C CNN "Description"
+	1    5150 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L RLC:Resistor R3
+U 1 1 634AC0D4
+P 4750 5000
+F 0 "R3" H 4750 5060 30  0000 C CNN
+F 1 "10kΩ" H 4750 4940 30  0000 C CIN
+F 2 "Resistor-THT:MOF5WS" H 4750 4850 15  0001 C CNN
+F 3 "-" H 4750 4850 30  0001 C CNN
+F 4 "SR Passives" H 4750 4800 30  0001 C CNN "Manufacturer"
+F 5 "MOF5WS-10K" H 4750 4750 30  0001 C CNN "Code"
+F 6 "TME" H 4750 4700 30  0001 C CNN "Supplier"
+F 7 "Resistor; 5W; ±5%; Ø6x17mm;" H 4750 4650 30  0001 C CNN "Description"
+	1    4750 5000
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 5200 4450 5200
+Wire Wire Line
+	4350 5000 4600 5000
+Wire Wire Line
+	4450 5250 4450 5200
+Connection ~ 4450 5200
+Wire Wire Line
+	4450 5450 4450 5500
+Wire Wire Line
+	4450 5500 4600 5500
+Wire Wire Line
+	4600 5500 4600 5000
+$Comp
+L Diode:GretzBridge IC7
+U 1 1 634AC0F7
+P 4100 5100
+F 0 "IC7" H 4100 5350 40  0000 C CNN
+F 1 "ABS15M" H 4100 5280 40  0000 C CNB
+F 2 "SMD:ABS" H 4100 4700 30  0001 C CNN
+F 3 "-" H 4100 4950 30  0001 C CNN
+F 4 "Diotec Semiconductor" H 4100 4900 30  0001 C CNN "Manufacturer"
+F 5 "ABS15M" H 4100 4850 30  0001 C CNN "Code"
+F 6 "TME" H 4100 4800 30  0001 C CNN "Supplier"
+F 7 "Gretz Bridge; 1.6A; 1kV;" H 4100 4750 30  0001 C CNN "Description"
+	1    4100 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 5000 4650 5000
+Connection ~ 4600 5000
+Wire Wire Line
+	4850 5000 4950 5000
+Wire Wire Line
+	4450 5200 4950 5200
+$Comp
+L Opto:Optocoupler IC4
+U 1 1 634D8BF6
+P 5150 5900
+F 0 "IC4" H 5150 5650 40  0000 C CNN
+F 1 "LSOP4" H 5150 5720 40  0000 C CNB
+F 2 "SOIC:LSOP4" H 5150 5500 30  0001 C CNN
+F 3 "-" H 5150 5750 30  0001 C CNN
+F 4 "Würth Elektronik" H 5150 5700 30  0001 C CNN "Manufacturer"
+F 5 "140100146000" H 5150 5650 30  0001 C CNN "Code"
+F 6 "Würth Elektronik" H 5150 5600 30  0001 C CNN "Supplier"
+F 7 "Optocoupler; 5kV; 10pF;" H 5150 5550 30  0001 C CNN "Description"
+	1    5150 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L RLC:Resistor R4
+U 1 1 634D9272
+P 4750 5800
+F 0 "R4" H 4750 5860 30  0000 C CNN
+F 1 "10kΩ" H 4750 5740 30  0000 C CIN
+F 2 "Resistor-THT:MOF5WS" H 4750 5650 15  0001 C CNN
+F 3 "-" H 4750 5650 30  0001 C CNN
+F 4 "SR Passives" H 4750 5600 30  0001 C CNN "Manufacturer"
+F 5 "MOF5WS-10K" H 4750 5550 30  0001 C CNN "Code"
+F 6 "TME" H 4750 5500 30  0001 C CNN "Supplier"
+F 7 "Resistor; 5W; ±5%; Ø6x17mm;" H 4750 5450 30  0001 C CNN "Description"
+	1    4750 5800
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 6000 4450 6000
+Wire Wire Line
+	4350 5800 4600 5800
+Wire Wire Line
+	4450 6050 4450 6000
+Connection ~ 4450 6000
+Wire Wire Line
+	4450 6250 4450 6300
+Wire Wire Line
+	4450 6300 4600 6300
+Wire Wire Line
+	4600 6300 4600 5800
+$Comp
+L Diode:GretzBridge IC8
+U 1 1 634D9295
+P 4100 5900
+F 0 "IC8" H 4100 6150 40  0000 C CNN
+F 1 "ABS15M" H 4100 6080 40  0000 C CNB
+F 2 "SMD:ABS" H 4100 5500 30  0001 C CNN
+F 3 "-" H 4100 5750 30  0001 C CNN
+F 4 "Diotec Semiconductor" H 4100 5700 30  0001 C CNN "Manufacturer"
+F 5 "ABS15M" H 4100 5650 30  0001 C CNN "Code"
+F 6 "TME" H 4100 5600 30  0001 C CNN "Supplier"
+F 7 "Gretz Bridge; 1.6A; 1kV;" H 4100 5550 30  0001 C CNN "Description"
+	1    4100 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 5800 4650 5800
+Connection ~ 4600 5800
+Wire Wire Line
+	4850 5800 4950 5800
+Wire Wire Line
+	4450 6000 4950 6000
+$Comp
+L RLC:Capacitor C7
+U 1 1 634AC0E4
+P 4450 5350
+F 0 "C7" H 4450 5260 30  0000 C CNN
+F 1 "10nF" H 4450 5440 30  0000 C CIN
+F 2 "Capacitor-SMD:1206" H 4450 5220 15  0001 C CNN
+F 3 "-" H 4450 5200 30  0001 C CNN
+F 4 "Würth Elektronik" H 4450 5150 30  0001 C CNN "Manufacturer"
+F 5 "885342208021" H 4450 5100 30  0001 C CNN "Code"
+F 6 "Würth Elektronik" H 4450 5050 30  0001 C CNN "Supplier"
+F 7 "Ceramic Capacitor; 1000V; X7R; ±10%;" H 4450 5000 30  0001 C CNN "Description"
+	1    4450 5350
+	0    1    1    0   
+$EndComp
+$Comp
+L RLC:Capacitor C8
+U 1 1 634D9282
+P 4450 6150
+F 0 "C8" H 4450 6060 30  0000 C CNN
+F 1 "10nF" H 4450 6240 30  0000 C CIN
+F 2 "Capacitor-SMD:1206" H 4450 6020 15  0001 C CNN
+F 3 "-" H 4450 6000 30  0001 C CNN
+F 4 "Würth Elektronik" H 4450 5950 30  0001 C CNN "Manufacturer"
+F 5 "885342208021" H 4450 5900 30  0001 C CNN "Code"
+F 6 "Würth Elektronik" H 4450 5850 30  0001 C CNN "Supplier"
+F 7 "Ceramic Capacitor; 1000V; X7R; ±10%;" H 4450 5800 30  0001 C CNN "Description"
+	1    4450 6150
+	0    1    1    0   
+$EndComp
+$Comp
+L RLC:Resistor R11
+U 1 1 633C6302
+P 7500 2500
+F 0 "R11" H 7500 2560 30  0000 C CNN
+F 1 "4.7kΩ" H 7500 2440 30  0000 C CIN
+F 2 "Resistor-SMD:0603" H 7500 2400 15  0001 C CNN
+F 3 "-" H 7500 2400 30  0001 C CNN
+F 4 "Royal Ohm" H 7500 2350 30  0001 C CNN "Manufacturer"
+F 5 "0603SAF4701T5E" H 7500 2300 30  0001 C CNN "Code"
+F 6 "TME" H 7500 2250 30  0001 C CNN "Supplier"
+F 7 "Resistor; ±1%;" H 7500 2200 30  0001 C CNN "Description"
+	1    7500 2500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7500 2400 7500 2350
+Wire Wire Line
+	6850 2400 7050 2400
+Wire Wire Line
+	6550 2600 6750 2600
+Wire Wire Line
+	7500 2650 7500 2600
+Text GLabel 7500 2650 3    30   Input ~ 0
+CS
+$Comp
+L Tag:+3V3 #PWR0148
+U 1 1 63553368
+P 3950 2650
+F 0 "#PWR0148" H 3950 2600 30  0001 C CNN
+F 1 "+3V3" V 3945 2835 30  0000 C CNN
+F 2 "" H 3950 2650 60  0001 C CNN
+F 3 "" H 3950 2650 60  0001 C CNN
+	1    3950 2650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:Schottky D5
+U 1 1 6383757C
+P 6800 3750
+F 0 "D5" H 6800 3850 30  0000 C CNN
+F 1 "SD101AW" H 6800 3650 30  0001 C CNN
+F 2 "SOD:SOD123" H 6800 3620 20  0001 C CNN
+F 3 "-" H 6800 3550 30  0001 C CNN
+F 4 "ON Semiconductor" H 6800 3500 30  0001 C CNN "Manufacturer"
+F 5 "MMSD301T1G" H 6800 3450 30  0001 C CNN "Code"
+F 6 "TME" H 6800 3400 30  0001 C CNN "Supplier"
+F 7 "Schottky Diode; 30V; 200mA; 1.5pF;" H 6800 3350 30  0001 C CNN "Description"
+	1    6800 3750
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 3750 6650 3750
+Wire Wire Line
+	6950 3750 7000 3750
+Wire Wire Line
+	6600 3850 7000 3850
+$Comp
+L RLC:Electrolytic E2
+U 1 1 639519FF
+P 7550 1400
+F 0 "E2" H 7550 1490 30  0000 C CNN
+F 1 "100µF" H 7550 1310 30  0000 C CIN
+F 2 "Electrolytic-SMD:6.3x7.7" H 7550 1270 15  0001 C CNN
+F 3 "-" H 7550 1250 30  0001 C CNN
+F 4 "Würth Elektronik" H 7550 1200 30  0001 C CNN "Manufacturer"
+F 5 "865230345005" H 7550 1150 30  0001 C CNN "Code"
+F 6 "Würth Elektronik" H 7550 1100 30  0001 C CNN "Supplier"
+F 7 "Electrolytic Capacitor; 81mA ; 16V; 5000h;" H 7550 1050 30  0001 C CNN "Description"
+	1    7550 1400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6150 950  6100 950 
+$Comp
+L RLC:Resistor R9
+U 1 1 6156FFD3
+P 6750 1150
+F 0 "R9" H 6750 1210 30  0000 C CNN
+F 1 "43kΩ" H 6750 1090 30  0000 C CIN
+F 2 "Resistor-SMD:0603" H 6750 1050 15  0001 C CNN
+F 3 "-" H 6750 1050 30  0001 C CNN
+F 4 "Royal Ohm" H 6750 1000 30  0001 C CNN "Manufacturer"
+F 5 "0603SAF4302T5E" H 6750 950 30  0001 C CNN "Code"
+F 6 "TME" H 6750 900 30  0001 C CNN "Supplier"
+F 7 "Resistor; ±1%;" H 6750 850 30  0001 C CNN "Description"
+	1    6750 1150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6750 1400 6750 1250
+Wire Wire Line
+	6750 1050 6750 950 
+$Comp
+L RLC:Resistor R10
+U 1 1 6156FFDD
+P 6750 1600
+F 0 "R10" H 6750 1660 30  0000 C CNN
+F 1 "4.7kΩ" H 6750 1540 30  0000 C CIN
+F 2 "Resistor-SMD:0603" H 6750 1500 15  0001 C CNN
+F 3 "-" H 6750 1500 30  0001 C CNN
+F 4 "Royal Ohm" H 6750 1450 30  0001 C CNN "Manufacturer"
+F 5 "0603SAF4701T5E" H 6750 1400 30  0001 C CNN "Code"
+F 6 "TME" H 6750 1350 30  0001 C CNN "Supplier"
+F 7 "Resistor; ±1%;" H 6750 1300 30  0001 C CNN "Description"
+	1    6750 1600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L RLC:Capacitor C20
+U 1 1 61570009
+P 7300 1400
+F 0 "C20" H 7300 1310 30  0000 C CNN
+F 1 "10µF" H 7300 1490 30  0000 C CIN
+F 2 "Capacitor-SMD:0603" H 7300 1270 15  0001 C CNN
+F 3 "-" H 7300 1250 30  0001 C CNN
+F 4 "Würth Elektronik" H 7300 1200 30  0001 C CNN "Manufacturer"
+F 5 "885012106006" H 7300 1150 30  0001 C CNN "Code"
+F 6 "Würth Elektronik" H 7300 1100 30  0001 C CNN "Supplier"
+F 7 "Ceramic Capacitor; 6.3V; X5R; ±20%;" H 7300 1050 30  0001 C CNN "Description"
+	1    7300 1400
+	0    1    1    0   
+$EndComp
+$Comp
+L RLC:Capacitor C19
+U 1 1 6156FFFF
+P 7050 1400
+F 0 "C19" H 7050 1310 30  0000 C CNN
+F 1 "10µF" H 7050 1490 30  0000 C CIN
+F 2 "Capacitor-SMD:0603" H 7050 1270 15  0001 C CNN
+F 3 "-" H 7050 1250 30  0001 C CNN
+F 4 "Würth Elektronik" H 7050 1200 30  0001 C CNN "Manufacturer"
+F 5 "885012106006" H 7050 1150 30  0001 C CNN "Code"
+F 6 "Würth Elektronik" H 7050 1100 30  0001 C CNN "Supplier"
+F 7 "Ceramic Capacitor; 6.3V; X5R; ±20%;" H 7050 1050 30  0001 C CNN "Description"
+	1    7050 1400
+	0    1    1    0   
+$EndComp
+$Comp
+L RLC:Capacitor C18
+U 1 1 6156FFEB
+P 6500 1150
+F 0 "C18" H 6500 1060 30  0000 C CNN
+F 1 "1nF" H 6500 1240 30  0000 C CIN
+F 2 "Capacitor-SMD:0603" H 6500 1020 15  0001 C CNN
+F 3 "-" H 6500 1000 30  0001 C CNN
+F 4 "Würth Elektronik" H 6500 950 30  0001 C CNN "Manufacturer"
+F 5 "885012006063" H 6500 900 30  0001 C CNN "Code"
+F 6 "Würth Elektronik" H 6500 850 30  0001 C CNN "Supplier"
+F 7 "Ceramic Capacitor; 50V; NP0; ±5%;" H 6500 800 30  0001 C CNN "Description"
+	1    6500 1150
+	0    1    1    0   
+$EndComp
+$Comp
+L Diode:Schottky D6
+U 1 1 62517AED
+P 6300 950
+F 0 "D6" H 6300 1050 30  0000 C CNN
+F 1 "SD101AW" H 6300 850 30  0001 C CNN
+F 2 "SOD:SOD123" H 6300 820 20  0001 C CNN
+F 3 "-" H 6300 750 30  0001 C CNN
+F 4 "ON Semiconductor" H 6300 700 30  0001 C CNN "Manufacturer"
+F 5 "MMSD301T1G" H 6300 650 30  0001 C CNN "Code"
+F 6 "TME" H 6300 600 30  0001 C CNN "Supplier"
+F 7 "Schottky Diode; 30V; 200mA; 1.5pF;" H 6300 550 30  0001 C CNN "Description"
+	1    6300 950 
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	6500 1400 6750 1400
+Connection ~ 6500 1400
+Wire Wire Line
+	6500 1250 6500 1400
+Wire Wire Line
+	6500 950  6450 950 
+Connection ~ 6500 950 
+Wire Wire Line
+	6500 1050 6500 950 
+Wire Wire Line
+	6750 950  6500 950 
+Wire Wire Line
+	6000 1400 6500 1400
+$Comp
+L Tag:GND #PWR0125
+U 1 1 6157003F
+P 6750 1750
+F 0 "#PWR0125" H 6750 1700 30  0001 C CNN
+F 1 "GND" H 6750 1880 30  0000 C CNN
+F 2 "" H 6750 1750 60  0001 C CNN
+F 3 "" H 6750 1750 60  0001 C CNN
+	1    6750 1750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7300 1500 7300 1750
+Wire Wire Line
+	7050 1500 7050 1750
+Wire Wire Line
+	6750 1700 6750 1750
+Connection ~ 6750 1400
+Wire Wire Line
+	6750 1500 6750 1400
+$Comp
+L Tag:GND #PWR0128
+U 1 1 625DC90E
+P 7050 1750
+F 0 "#PWR0128" H 7050 1700 30  0001 C CNN
+F 1 "GND" H 7050 1880 30  0000 C CNN
+F 2 "" H 7050 1750 60  0001 C CNN
+F 3 "" H 7050 1750 60  0001 C CNN
+	1    7050 1750
+	-1   0    0    1   
+$EndComp
+$Comp
+L Tag:GND #PWR0127
+U 1 1 625EF1F1
+P 7300 1750
+F 0 "#PWR0127" H 7300 1700 30  0001 C CNN
+F 1 "GND" H 7300 1880 30  0000 C CNN
+F 2 "" H 7300 1750 60  0001 C CNN
+F 3 "" H 7300 1750 60  0001 C CNN
+	1    7300 1750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7300 950  7050 950 
+Connection ~ 6750 950 
+Wire Wire Line
+	7050 950  7050 1300
+Connection ~ 7050 950 
+Wire Wire Line
+	7050 950  6750 950 
+Wire Wire Line
+	7300 950  7300 1300
+Wire Wire Line
+	7550 1500 7550 1750
+$Comp
+L RLC:Electrolytic E1
+U 1 1 63AE47BD
+P 7600 4150
+F 0 "E1" H 7600 4240 30  0000 C CNN
+F 1 "100µF" H 7600 4060 30  0000 C CIN
+F 2 "Electrolytic-SMD:6.3x7.7" H 7600 4020 15  0001 C CNN
+F 3 "-" H 7600 4000 30  0001 C CNN
+F 4 "Würth Elektronik" H 7600 3950 30  0001 C CNN "Manufacturer"
+F 5 "865230345005" H 7600 3900 30  0001 C CNN "Code"
+F 6 "Würth Elektronik" H 7600 3850 30  0001 C CNN "Supplier"
+F 7 "Electrolytic Capacitor; 81mA ; 16V; 5000h;" H 7600 3800 30  0001 C CNN "Description"
+	1    7600 4150
+	0    -1   -1   0   
+$EndComp
+Connection ~ 7300 3750
+Wire Wire Line
+	7300 3350 7300 3750
+Wire Wire Line
+	7300 3750 7600 3750
+Wire Wire Line
+	7600 3750 7600 4050
+Wire Wire Line
+	7300 4550 7600 4550
+Wire Wire Line
+	7600 4250 7600 4550
+$Comp
+L Tag:+12V #PWR0129
+U 1 1 619966A4
+P 7550 900
+F 0 "#PWR0129" H 7550 850 30  0001 C CNN
+F 1 "+12V" V 7545 1085 30  0000 C CNN
+F 2 "" H 7550 900 60  0001 C CNN
+F 3 "" H 7550 900 60  0001 C CNN
+	1    7550 900 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7550 900  7550 950 
+Wire Wire Line
+	7550 950  7300 950 
+Connection ~ 7550 950 
+Wire Wire Line
+	7550 950  7550 1300
+Connection ~ 7300 950 
+$Comp
+L Tag:GND #PWR0103
+U 1 1 63F3C42F
+P 7550 1750
+F 0 "#PWR0103" H 7550 1700 30  0001 C CNN
+F 1 "GND" H 7550 1880 30  0000 C CNN
+F 2 "" H 7550 1750 60  0001 C CNN
+F 3 "" H 7550 1750 60  0001 C CNN
+	1    7550 1750
+	-1   0    0    1   
+$EndComp
+NoConn ~ 3250 2600
+$EndSCHEMATC
